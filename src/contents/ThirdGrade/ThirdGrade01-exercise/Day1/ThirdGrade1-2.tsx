@@ -3,10 +3,11 @@ import Styled from '../../style';
 // import { useEffect, useState } from 'react';
 import Day1Layout from '../../Layout/Day1';
 import { ThirdGrade1Day1, SubBlank } from '../../utils/handleTitle';
-import ExampleQuiz from './Example1-2';
-import SingleQuiz from './Single1-2';
 import { Data12Quiz  as QuizData } from '../../Data/Book1';
 import { Data12QuizProps } from '../../Type/Type1';
+import ExampleQuiz from './Example1-2';
+import SingleQuiz from './Single1-2';
+
 import ConfirmBtn from '../../utils/ConfirmBtn';
 
 const ThirdGrade12Exercise = () => {

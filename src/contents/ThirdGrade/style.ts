@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const Styled = {
-  ColGapBox: styled.div<{ gap: number }>`
+  ColGapBox: styled.div<{ gap?: number }>`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +17,38 @@ const Styled = {
       width: 40%;
       justify-content: center;
     }
+  `,
+  RowWrapBox2: styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    & > div {
+      width: 30%;
+      justify-content: center;
+    }
+  `,
+  RowWrapBox3: styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 3.5rem;
+    & > div {
+      width: 40%;
+      justify-content: center;
+    }
+  `,
+
+  RowBox: styled.div`
+    display: flex;
+  `,
+  RedFont1: styled.div`
+    color: #ff2e00;
+    padding-left: 0.8rem;
+    margin-top: 0.2rem;
+    width: 100%;
   `,
 
   ExampleBox1: styled.div`
@@ -49,19 +81,79 @@ const Styled = {
     justify-content: center;
     font-weight: 600;
   `,
-
+  ExampleBox3: styled.div`
+    //길고 높은 example box
+    margin-top: 2.938rem;
+    margin-bottom: 0.1875rem;
+    width: 42.5rem;
+    height: 13rem;
+    border-radius: 1.25rem;
+    border: 1px solid #c0c0c0;
+    background: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  `,
+  ExampleBox4: styled.div`
+    //길고 낮은 example box
+    margin-bottom: 0.1875rem;
+    width: 42.5rem;
+    height: 9rem;
+    border-radius: 1.25rem;
+    border: 1px solid #c0c0c0;
+    background: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: relative;
+  `,
+  ExampleExplain1: styled.div`
+    position: absolute;
+    color: #ff2e00;
+    font-size: 1rem;
+    top: 1.7rem;
+    right: 14.5rem;
+    display: flex;
+    gap: 3.6rem;
+  `,
   SingleWrapper: styled.div`
     font-size: 1.5rem;
     font-weight: 600;
     display: flex;
     gap: 1.875rem;
   `,
+  SingleWrapper2: styled.div`
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    gap: 1.875rem;
+    width: 100%;
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff5ff;
+  `,
+
   PaddingBox: styled.div`
     font-size: 1.5rem;
     font-weight: 600;
     display: flex;
     gap: 1.875rem;
     padding: 4rem 2rem;
+    align-items: center;
+    justify-content: center;
+  `,
+  PaddingBox2: styled.div`
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    padding: 4rem 0;
     align-items: center;
     justify-content: center;
   `,
@@ -122,6 +214,26 @@ const Styled = {
     font-size: 1.5rem;
     font-weight: 600;
     box-sizing: border-box;
+    &::placeholder {
+      color: #ff2e00;
+    }
+  `,
+  InputBox2: styled.input`
+    width: 6.6rem;
+    height: 2.3125rem;
+    border-radius: 0.25rem;
+    border: 1px solid #c1c1c1;
+    background: #fff;
+    color: #2b1840;
+    padding: 0 0.3rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    letter-spacing: 0.375rem;
+    &::placeholder {
+      color: #ff2e00;
+    }
   `,
 
   InputExplainWrapper: styled.div<{ left?: number }>`

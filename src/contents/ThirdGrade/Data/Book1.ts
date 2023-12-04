@@ -34,4 +34,90 @@ export const Data13Quiz = [
   { id: 14, quiz1: 845, quiz2: 694 },
 ];
 
+export const Data21Quiz = [
+  { id: 1, quiz1: 783, quiz2: 439 },
+  { id: 2, quiz1: 527, quiz2: 249 },
+  { id: 3, quiz1: 989, quiz2: 808 },
+  { id: 4, quiz1: 496, quiz2: 285 },
+  { id: 5, quiz1: 347, quiz2: 985 },
+  { id: 6, quiz1: 396, quiz2: 326 },
+  { id: 7, quiz1: 627, quiz2: 481 },
+  { id: 8, quiz1: 895, quiz2: 365 },
+  { id: 9, quiz1: 788, quiz2: 438 },
+];
 
+//이 밑에 부터는 숫자 적용 안되어있음
+export const Data22Quiz = [
+  { id: 1, quiz1: 468, quiz2: 797 },
+  { id: 2, quiz1: 584, quiz2: 256 },
+  { id: 3, quiz1: 763, quiz2: 459 },
+  { id: 4, quiz1: 664, quiz2: 178 },
+  { id: 5, quiz1: 289, quiz2: 342 },
+  { id: 6, quiz1: 787, quiz2: 536 },
+  { id: 7, quiz1: 408, quiz2: 523 },
+  { id: 8, quiz1: 160, quiz2: 358 },
+  { id: 9, quiz1: 856, quiz2: 163 },
+  { id: 10, quiz1: 357, quiz2: 485 },
+  { id: 11, quiz1: 694, quiz2: 527 },
+  { id: 12, quiz1: 295, quiz2: 663 },
+];
+
+export const Data23Quiz = [
+  { id: 1, quiz1: 354, quiz2: 286 },
+  { id: 2, quiz1: 512, quiz2: 463 },
+  { id: 3, quiz1: 763, quiz2: 459 },
+  { id: 4, quiz1: 664, quiz2: 178 },
+  { id: 5, quiz1: 289, quiz2: 342 },
+  { id: 6, quiz1: 787, quiz2: 536 },
+  { id: 7, quiz1: 408, quiz2: 523 },
+  { id: 8, quiz1: 160, quiz2: 358 },
+  { id: 9, quiz1: 856, quiz2: 163 },
+  { id: 10, quiz1: 357, quiz2: 485 },
+  { id: 11, quiz1: 694, quiz2: 527 },
+  { id: 12, quiz1: 295, quiz2: 663 },
+  { id: 13, quiz1: 617, quiz2: 398 },
+  { id: 14, quiz1: 845, quiz2: 694 },
+];
+
+export const Data32Quiz = [
+  { id: 1, quiz1: 468, quiz2: 797 },
+  { id: 2, quiz1: 584, quiz2: 256 },
+  { id: 3, quiz1: 763, quiz2: 459 },
+  { id: 4, quiz1: 664, quiz2: 178 },
+  { id: 5, quiz1: 289, quiz2: 342 },
+  { id: 6, quiz1: 787, quiz2: 536 },
+  { id: 7, quiz1: 408, quiz2: 523 },
+];
+export const Data33Quiz = [
+  { id: 1, quiz1: 354, quiz2: 286 },
+  { id: 2, quiz1: 512, quiz2: 463 },
+  { id: 3, quiz1: 763, quiz2: 459 },
+  { id: 4, quiz1: 664, quiz2: 178 },
+  { id: 5, quiz1: 289, quiz2: 342 },
+  { id: 6, quiz1: 787, quiz2: 536 },
+  { id: 7, quiz1: 408, quiz2: 523 },
+  { id: 8, quiz1: 160, quiz2: 358 },
+  { id: 9, quiz1: 856, quiz2: 163 },
+  { id: 10, quiz1: 357, quiz2: 485 },
+  { id: 11, quiz1: 694, quiz2: 527 },
+  { id: 12, quiz1: 295, quiz2: 663 },
+  { id: 13, quiz1: 617, quiz2: 398 },
+  { id: 14, quiz1: 845, quiz2: 694 },
+];
+
+export const Data43Quiz = [
+  { id: 1, quiz1: 354, quiz2: 286 },
+  { id: 2, quiz1: 512, quiz2: 463 },
+  { id: 3, quiz1: 763, quiz2: 459 },
+  { id: 4, quiz1: 664, quiz2: 178 },
+  { id: 5, quiz1: 289, quiz2: 342 },
+  { id: 6, quiz1: 787, quiz2: 536 },
+  { id: 7, quiz1: 408, quiz2: 523 },
+  { id: 8, quiz1: 160, quiz2: 358 },
+  { id: 9, quiz1: 856, quiz2: 163 },
+  { id: 10, quiz1: 357, quiz2: 485 },
+  { id: 11, quiz1: 694, quiz2: 527 },
+  { id: 12, quiz1: 295, quiz2: 663 },
+  { id: 13, quiz1: 617, quiz2: 398 },
+  { id: 14, quiz1: 845, quiz2: 694 },
+];
