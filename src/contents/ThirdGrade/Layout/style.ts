@@ -35,6 +35,7 @@ export const LayoutStyled = {
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
+    font-family: 'Elice DX Neolli'; //이 부분 어떻게 입력해야하는지 모르겠습니다.
   `,
 
   QuizSub: styled.div<{ border: string; color: string }>`
@@ -65,5 +66,6 @@ export const LayoutStyled = {
     border: 8px solid ${(props) => props.color}; //'border'
     border-radius: 0.75rem;
     overflow: auto;
+    font-family: 'Pretendard';
   `,
 };
