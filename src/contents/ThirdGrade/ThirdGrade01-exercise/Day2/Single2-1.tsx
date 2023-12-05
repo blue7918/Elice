@@ -10,7 +10,7 @@ const Single21 = (props: Data12QuizProps) => {
       <Styled.ColGapBox gap={0}>
         <Matrix />
         <Styled.InputWrapper2>
-          <div>{id} )</div>
+          <div>{id}</div>
           <div>{quiz1}</div>
           <div>+</div>
           <div>{quiz2}</div>

@@ -41,14 +41,13 @@ export const LayoutStyled = {
     top: 12%;
     position: absolute;
     width: 42.5rem;
-    min-height: 4.5rem;
-    max-height: 6rem;
+    min-height: 7vh;
+    max-height: 9.3vh;
     background-color: ${(props) => props.color}; //'sub'
     border: 1.5px solid ${(props) => props.border}; //'border'
     border-radius: 0.625rem;
     line-height: 150%;
     font-size: 1.5rem;
-    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -44,6 +44,11 @@ const Styled = {
   RowBox: styled.div`
     display: flex;
   `,
+  RowBox2: styled.div`
+  display: flex;
+  gap: 1rem;
+  width: 70%;
+`,
   RedFont1: styled.div`
     color: #ff2e00;
     padding-left: 0.8rem;
@@ -139,6 +144,20 @@ const Styled = {
     justify-content: center;
     background-color: #eff5ff;
   `,
+  SingleWrapper3: styled.div`
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  gap: 1.875rem;
+  width: 100%;
+  min-width: 32.5rem;
+  height: fit-content;
+  border-radius: 1rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff5ff;
+`,
 
   PaddingBox: styled.div`
     font-size: 1.5rem;
@@ -263,6 +282,20 @@ const Styled = {
     width: 17.5rem;
     height: 4rem;
     position: relative;
+  `,
+  TextBoxWrapper : styled.div`
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    gap: 2rem;
+  `,
+  TextBox: styled.div`
+    width: 95%;
+    height: fit-content;
+    white-space: pre-wrap;
+    line-height: 150%;
+    font-weight: 500;
   `,
 };
 

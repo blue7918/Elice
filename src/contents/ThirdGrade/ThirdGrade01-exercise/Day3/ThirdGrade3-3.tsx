@@ -1,6 +1,6 @@
 import Styled from '../../style';
 // import { useEffect, useState } from 'react';
-import Day3Layout from '../../Layout/Day3';
+import DayLayout from '../../Layout/Day3';
 import { ThirdGrade1Day3, SubJustCal } from '../../utils/handleTitle';
 import SingleQuiz from '../Day1/Single1-3';
 import { Data33Quiz as QuizData } from '../../Data/Book1';
@@ -9,12 +9,12 @@ import ConfirmBtn from '../../utils/ConfirmBtn';
 
 const ThirdGrade33Exercise = () => {
   return (
-    <Day3Layout title={ThirdGrade1Day3.title} subTitle={SubJustCal}>
+    <DayLayout title={ThirdGrade1Day3.title} subTitle={SubJustCal}>
       <Styled.PaddingBox>
         <Styled.RowWrapBox>
-          {QuizData.map((item: Data12QuizProps) => (
+          {QuizData.map((item: Data12QuizProps, idx) => (
             <SingleQuiz
-              key={item.id}
+              key={idx}
               id={item.id}
               quiz1={item.quiz1}
               quiz2={item.quiz2}
@@ -22,8 +22,8 @@ const ThirdGrade33Exercise = () => {
           ))}
         </Styled.RowWrapBox>
       </Styled.PaddingBox>
-      <ConfirmBtn type={true} />
-    </Day3Layout>
+      <ConfirmBtn type={true} day={3}/>
+    </DayLayout>
   );
 };
 

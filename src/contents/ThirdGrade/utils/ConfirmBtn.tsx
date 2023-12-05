@@ -1,12 +1,19 @@
 import styled from '@emotion/styled';
+import { handleColor } from './handleColor';
 
-const ConfirmBtn = (type: { type: boolean }) => {
+interface Props {
+  type: boolean;
+  day: number;
+}
+const ConfirmBtn = (props: Props) => {
+  const { type, day } = props;
+  const color = handleColor('title', day);
   return (
     <ButtonWrappr>
       {type ? (
-        <ConfirmBox>제출하기</ConfirmBox>
+        <ConfirmBox color={color}>제출하기</ConfirmBox>
       ) : (
-        <RetryButton>다시풀기</RetryButton>
+        <RetryButton color={color}>다시풀기</RetryButton>
       )}
     </ButtonWrappr>
   );
@@ -28,15 +35,15 @@ const ButtonWrappr = styled.div`
     line-height: 100%;
   }
 `;
-const ConfirmBox = styled.button`
-  background-color: #ff6291;
+const ConfirmBox = styled.button<{ color: string }>`
+  background-color: ${(props) => props.color};
   color: #fff;
   font-weight: 500;
   border: none;
 `;
-const RetryButton = styled.button`
-  border: 4px solid #ff6291;
-  color: #ff6291;
+const RetryButton = styled.button<{ color: string }>`
+  border: 4px solid ${(props) => props.color};
+  color: ${(props) => props.color};
   font-weight: 700;
 `;
 
