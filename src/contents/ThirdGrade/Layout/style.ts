@@ -61,7 +61,7 @@ export const LayoutStyled = {
     left: 14%;
     position: absolute;
     width: 70.67vw;
-    height: ${(props) => (props.line === true ? '46.4375rem' : '47.9375rem')};
+    height: ${(props) => (props.line === true ? '69.3vh' : '71vh')};
     background-color: white;
     border: 8px solid ${(props) => props.color}; //'border'
     border-radius: 0.75rem;
