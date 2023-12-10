@@ -46,7 +46,18 @@ const Styled = {
     gap: 3rem;
     justify-content: center;
   `,
-
+  RowWrapBox10: styled.div`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 3.5rem;
+    & > div {
+      width: 80%;
+      justify-content: center;
+    }
+  `,
   RowBox: styled.div`
     display: flex;
   `,
@@ -440,6 +451,16 @@ const Styled = {
     gap: 1rem;
     width: 100%;
     padding-left: 1rem;
+    .boxCenter {
+      display: flex;
+      align-items: center;
+    }
+
+    .answerBox {
+      margin: 0px 10px 0;
+      height: 30px;
+      font-size: 15px;
+    }
   `,
   TextBox: styled.div`
     width: 95%;
@@ -551,6 +572,544 @@ const Styled = {
     background-color: #eff5ff;
     width: 2.5rem;
     height: 2.3125rem;
+  `,
+
+  OneToNine: styled.div`
+    .absolSetting {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .elementAbsol1 {
+      position: absolute;
+      top: 0%;
+      right: 50%;
+    }
+
+    .elementAbsol2 {
+      position: absolute;
+      top: 24%;
+      right: 20%;
+    }
+
+    .elementAbsol3 {
+      position: absolute;
+      right: 28.5%;
+      top: 75%;
+    }
+    .elementAbsol4 {
+      position: absolute;
+      right: 30%;
+      top: 75%;
+    }
+    .elementAbsol5 {
+      position: absolute;
+      right: 27.5%;
+      top: 75%;
+    }
+    .inputSize1 {
+      width: 3vw;
+      height: 3vh;
+      border-radius: 5px;
+      border: 1px solid #e2e2e2;
+      margin-top: 4%;
+      outline: none;
+      padding-left: 4px;
+    }
+
+    .quiz {
+      position: relative;
+      display: grid;
+      grid-template-columns: 70%;
+      align-content: center;
+      justify-content: center;
+      margin-left: 30px;
+      margin-top: 50px;
+    }
+
+    .quiz1 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 40% 40%;
+      align-content: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .quiz2 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 37% 37%;
+      align-content: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .quizAll {
+      margin-top: 30px;
+      width: 100%;
+    }
+
+    .quizCard {
+      width: 90%;
+      height: 190px;
+      padding: 23px;
+      border: 1px solid #e9e9e9;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 3%;
+    }
+
+    .quizCard1 {
+      width: 90%;
+      height: 120px;
+      padding: 23px;
+      background-color: #e2e2e2;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
+
+    .quizCard4 {
+      width: 92%;
+      height: 120px;
+      padding: 25px;
+      background-color: #e2e2e2;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 50px 0px;
+    }
+
+    .quizNumber {
+      position: absolute;
+      left: 2%;
+      top: -10%;
+    }
+
+    .sectionSize {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+
+    .textRight {
+      margin-top: 1%;
+      margin-left: 60px;
+      text-align: center;
+    }
+
+    .textRight2 {
+      margin-top: 1%;
+      margin-left: 50px;
+      text-align: center;
+    }
+    .marginTop18 {
+      margin-top: 18px;
+      margin-left: 10px;
+    }
+
+    .twoQuiz {
+      display: grid;
+      grid-template-columns: 40% 40%;
+      align-content: center;
+      justify-content: center;
+      margin-left: 40px;
+    }
+
+    .lineStyleCss {
+      .d-line {
+        width: 0; /* 가로 길이 조절 */
+        height: 32px; /* 세로 길이 조절 */
+        border: 0.5px solid red;
+        position: absolute;
+        left: 21%;
+        top: 13%;
+        transform: rotate(-90deg);
+      }
+
+      .d-line:before,
+      .d-line:after {
+        content: '';
+        position: absolute;
+        width: 7px; /* 가로 길이 조절 */
+        height: 1px; /* 세로 길이 조절 */
+        background-color: red; /* 선의 색상 설정 */
+      }
+
+      .d-line:before {
+        top: -1px;
+        left: 0;
+        transform: rotate(0deg);
+      }
+
+      .d-line:after {
+        top: 30px;
+        left: 0px; /* 가로 길이의 절반만큼 이동 */
+        transform: rotate(0deg);
+      }
+
+      .d-line1 {
+        width: 0; /* 가로 길이 조절 */
+        height: 42px; /* 세로 길이 조절 */
+        border: 0.5px solid red;
+        position: absolute;
+        transform: rotate(-90deg);
+        left: 25%;
+        top: 47%;
+      }
+
+      .d-line1:before,
+      .d-line1:after {
+        content: '';
+        position: absolute;
+        width: 7px; /* 가로 길이 조절 */
+        height: 1px; /* 세로 길이 조절 */
+        background-color: red; /* 선의 색상 설정 */
+      }
+
+      .d-line1:before {
+        top: -1px;
+        left: 0;
+        transform: rotate(0deg);
+      }
+
+      .d-line1:after {
+        width: 38px; /* 가로 길이 조절 */
+        top: 40px;
+        left: 0px; /* 가로 길이의 절반만큼 이동 */
+        transform: rotate(0deg);
+      }
+
+      .d-line2 {
+        width: 0; /* 가로 길이 조절 */
+        height: 32px; /* 세로 길이 조절 */
+        border: 0.5px solid red;
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 35%;
+        top: 12%;
+      }
+
+      .d-line2:before,
+      .d-line2:after {
+        content: '';
+        position: absolute;
+        width: 7px; /* 가로 길이 조절 */
+        height: 1px; /* 세로 길이 조절 */
+        background-color: red; /* 선의 색상 설정 */
+      }
+
+      .d-line2:before {
+        top: -1px;
+        left: 0;
+        transform: rotate(0deg);
+      }
+
+      .d-line2:after {
+        top: 30px;
+        left: 0px; /* 가로 길이의 절반만큼 이동 */
+        transform: rotate(0deg);
+      }
+      .d-line3 {
+        width: 0; /* 가로 길이 조절 */
+        height: 42px; /* 세로 길이 조절 */
+        border: 0.5px solid red;
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 39%;
+        top: 43%;
+      }
+
+      .d-line3:before,
+      .d-line3:after {
+        content: '';
+        position: absolute;
+        width: 8px; /* 가로 길이 조절 */
+        height: 1px; /* 세로 길이 조절 */
+        background-color: red; /* 선의 색상 설정 */
+      }
+
+      .d-line3:before {
+        top: -1px;
+        left: 0;
+        transform: rotate(0deg);
+        width: 38px; /* 좌측 세로 길이 조절 */
+      }
+
+      .d-line3:after {
+        top: 40px;
+        left: 0px; /* 가로 길이의 절반만큼 이동 */
+        transform: rotate(0deg);
+      }
+
+      .d-line4 {
+        width: 0; /* 가로 길이 조절 */
+        height: 32px; /* 세로 길이 조절 */
+        border: 0.5px solid red;
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 45%;
+        top: 34%;
+      }
+
+      .d-line4:before,
+      .d-line4:after {
+        content: '';
+        position: absolute;
+        width: 7px; /* 가로 길이 조절 */
+        height: 1px; /* 세로 길이 조절 */
+        background-color: red; /* 선의 색상 설정 */
+      }
+
+      .d-line4:before {
+        top: -1px;
+        left: 0;
+        transform: rotate(0deg);
+      }
+
+      .d-line4:after {
+        top: 30px;
+        left: 0px; /* 가로 길이의 절반만큼 이동 */
+        transform: rotate(0deg);
+      }
+
+      .d-line5 {
+        width: 0; /* 가로 길이 조절 */
+        height: 48px; /* 세로 길이 조절 */
+        border: 0.5px solid red;
+        position: absolute;
+        transform: rotate(-90deg);
+        left: 43%;
+        top: 62%;
+      }
+
+      .d-line5:before,
+      .d-line5:after {
+        content: '';
+        position: absolute;
+        width: 8px; /* 가로 길이 조절 */
+        height: 1px; /* 세로 길이 조절 */
+        background-color: red; /* 선의 색상 설정 */
+      }
+
+      .d-line5:before {
+        top: -1px;
+        left: 0;
+        transform: rotate(0deg);
+        width: 38px; /* 좌측 세로 길이 조절 */
+      }
+
+      .d-line5:after {
+        top: 46px;
+        left: 0px; /* 가로 길이의 절반만큼 이동 */
+        transform: rotate(0deg);
+      }
+
+      .marginLeft1 {
+        right: 33%;
+      }
+
+      .marginLeft2 {
+        right: 44.5%;
+      }
+    }
+    .flexrow {
+      display: flex;
+      flex-direction: row;
+      .margin8px {
+        margin-left: 8px;
+      }
+      .margin10px {
+        margin-left: 14px;
+      }
+    }
+
+    .borderRedSq {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+      margin-left: 5px;
+    }
+
+    .borderRedSqAb1 {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+      position: absolute;
+      top: 35%;
+      left: 19%;
+    }
+
+    .borderRedSqAb2 {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+      position: absolute;
+      top: 75%;
+      left: 24%;
+    }
+
+    .borderRedSqAb3 {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+      position: absolute;
+      top: 35%;
+      left: 62.5%;
+    }
+
+    .borderRedSqAb4 {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+      position: absolute;
+      top: 72%;
+      left: 58%;
+    }
+
+    .quizCardNone {
+      width: 80%;
+      height: 100px;
+      padding: 23px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+    }
+
+    .borderRedInput1 {
+      font-size: 10px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 2px;
+      position: absolute;
+      top: 25%;
+      right: 13%;
+      outline: none;
+      padding-left: 3px;
+    }
+
+    .borderRedInput2 {
+      font-size: 10px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 2px;
+      position: absolute;
+      top: 54%;
+      right: 41%;
+      outline: none;
+      padding-left: 3px;
+    }
+
+    .borderRedInput3 {
+      font-size: 10px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid gray;
+      border-radius: 2px;
+      position: absolute;
+      top: 92%;
+      right: 51%;
+      outline: none;
+      padding-left: 3px;
+    }
+    .quizMargin {
+      margin-right: 80px;
+    }
+
+    .imgInputSet input {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      font-size: 25px;
+      padding-inline-start: 7px;
+    }
+
+    .imgInput1 {
+      top: 7.8%;
+      right: 31.5%;
+    }
+
+    .imgInput2 {
+      top: 31.8%;
+      right: 43.5%;
+    }
+
+    .imgInput3 {
+      top: 55.5%;
+      right: 19.5%;
+    }
+
+    .imgInput4 {
+      top: 79%;
+      right: 31.5%;
+    }
+
+    .imgInput5 {
+      top: 103%;
+      right: 55.5%;
+    }
+
+    .imgInput6 {
+      top: 103%;
+      right: 19.5%;
+    }
+
+    .imgInput7 {
+      top: 126.1%;
+      right: 43.5%;
+    }
+
+    .imgInput8 {
+      top: 126.1%;
+      right: 67.5%;
+    }
+    .flexCol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .marginBottom18 {
+      margin-bottom: 18px;
+    }
   `,
 };
 

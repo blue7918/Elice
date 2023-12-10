@@ -67,6 +67,40 @@ export const ThirdGrade3Day4 = {
   subTitle: '세로셈으로 계산하세요.',
 };
 
+export const FifthGrade1Day1 = {
+  title: '01 차례로 계산하기',
+  subTitle: '알맞은 수를 써넣어 차례로 계산하세요.',
+};
+
+export const FifthGrade1Day2 = {
+  title: '02 덧셈, 뺄셈과 괄호',
+  subTitle: '알맞은 수를 써넣어 식을 계산하세요.',
+};
+
+export const FifthGrade1Day3 = {
+  title: '03 곱셈, 나눗셈과 괄호',
+  subTitle: '알맞은 수를 써넣어 식을 계산하세요.',
+};
+
+export const FifthGrade1Day41 = {
+  title: '04 연산 퍼즐',
+  subTitle: '알맞은 수를 써넣으세요',
+};
+
+export const FifthGrade1Day42 = {
+  title: '04 연산 퍼즐',
+  subTitle: '두 식을 계산하세요',
+};
+
+export const FifthGrade1Day43 = {
+  title: '04 연산 퍼즐',
+  subTitle: '계산 하세요',
+};
+
+export const FifthGrade1Day5 = {
+  title: '05 문장제',
+  subTitle: '문제를 읽고 하나의 식을 만들어 답을 구하세요.',
+};
 export const SubBlank = '빈칸에 알맞은 수를 써넣으세요.';
 export const SubJustCal = '계산을 하세요.';
 export const SubJustCalBelow = '다음과 같은 방법으로 계산을 하세요.';
