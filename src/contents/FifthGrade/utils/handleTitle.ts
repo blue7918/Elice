@@ -101,6 +101,33 @@ export const FifthGrade1Day5 = {
   title: '05 문장제',
   subTitle: '문제를 읽고 하나의 식을 만들어 답을 구하세요.',
 };
+
+export const FifthGrade2Day11 = {
+  title: '01 약수',
+  subTitle: '빈칸에 알맞은 약수를 써넣으세요.',
+};
+
+export const FifthGrade2Day12 = {
+  title: '01 약수',
+  subTitle: '곱셈을 이용하여 약수를 구하세요',
+};
+
+export const FifthGrade2Day13 = {
+  title: '01 약수',
+  subTitle: '주어진 수들 중에서 약수인 것을 나열하세요.(예시: 1,2,4)',
+};
+
+export const FifthGrade2Day21 = {
+  title: '02 약수가 2개인 수',
+  subTitle:
+    '주어진 수의 약수를 모두 구하고 약수가 2개뿐인 수는 ○표, 아닌 것에는 X표 하세요',
+};
+
+export const FifthGrade2Day22 = {
+  title: '02 약수가 2개인 수',
+  subTitle: '빈칸에 약수가 2개뿐인 수가 몇 개인지 써넣으세요.',
+};
+
 export const SubBlank = '빈칸에 알맞은 수를 써넣으세요.';
 export const SubJustCal = '계산을 하세요.';
 export const SubJustCalBelow = '다음과 같은 방법으로 계산을 하세요.';

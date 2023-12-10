@@ -628,7 +628,6 @@ const Styled = {
       grid-template-columns: 70%;
       align-content: center;
       justify-content: center;
-      margin-left: 30px;
       margin-top: 50px;
     }
 
@@ -669,7 +668,7 @@ const Styled = {
     }
 
     .quizCard1 {
-      width: 90%;
+      width: 99%;
       height: 120px;
       padding: 23px;
       background-color: #e2e2e2;
@@ -1109,6 +1108,84 @@ const Styled = {
     }
     .marginBottom18 {
       margin-bottom: 18px;
+    }
+
+    .quiz211 {
+      width: 95%;
+    }
+
+    .flexRow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .marginLeft30 {
+      margin-left: 30px;
+    }
+    .marginLeft6 {
+      margin-left: 6.5px;
+    }
+    .averageInput {
+      width: 22px;
+      height: 22px;
+      border-radius: 2px;
+      border: 1px solid #e2e2e2;
+      text-align: center;
+      outline: none;
+    }
+    .fifthQuiz212 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .fifthQuiz212 div {
+      margin: 0px 8px;
+      white-space: nowrap;
+    }
+    .fifthQuiz212 p {
+      margin: 0px 5px;
+      white-space: nowrap;
+    }
+    .fifthQuiz213Input {
+      width: 82px;
+      height: 22px;
+      border-radius: 5px;
+      border: 1px solid #e2e2e2;
+      text-align: center;
+      outline: none;
+    }
+    .fifthQuiz221Input {
+      width: 182px;
+      height: 33px;
+      border-radius: 5px;
+      border: 1px solid #e2e2e2;
+      text-align: center;
+      font-size: 15px;
+      margin: 0px 20px;
+      outline: none;
+    }
+    .fifthGrade223Grid {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      border-right: 1px solid black;
+    }
+    .fifthGrade223Grid div {
+      padding: 10px;
+      background-color: white;
+      border: 1px solid black;
+      border-right: none;
+      text-align: center;
+      font-weight: 600;
+    }
+    .fifthGrade223Input {
+      width: 42px;
+      height: 42px;
+      border-radius: 2px;
+      border: 1px solid #e2e2e2;
+      text-align: center;
+      outline: none;
+      margin: 0px 10px 0px 20px;
+      font-size: 17px;
     }
   `,
 };
