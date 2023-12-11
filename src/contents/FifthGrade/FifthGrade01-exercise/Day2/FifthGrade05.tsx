@@ -16,7 +16,7 @@ const FifthGrade05: React.FC = () => {
             </div>
             <div>
               17 + (33 + 47) = 17 + <input className="inputSize1" type="text" />
-              <div className="textRight">
+              <div className="">
                 = <input className="inputSize1" type="text" />
               </div>
             </div>
@@ -32,7 +32,7 @@ const FifthGrade05: React.FC = () => {
             </div>
             <div>
               68 - (29 - 16) = 68 - <input className="inputSize1" type="text" />
-              <div className="textRight">
+              <div className="">
                 = <input className="inputSize1" type="text" />
               </div>
             </div>
@@ -48,7 +48,7 @@ const FifthGrade05: React.FC = () => {
             </div>
             <div>
               75 - (35 + 26) = 75 - <input className="inputSize1" type="text" />
-              <div className="textRight">
+              <div className="">
                 = <input className="inputSize1" type="text" />
               </div>
             </div>
@@ -63,7 +63,7 @@ const FifthGrade05: React.FC = () => {
             </div>
             <div>
               13 + (27 - 19) = 13 + <input className="inputSize1" type="text" />
-              <div className="textRight">
+              <div className="">
                 = <input className="inputSize1" type="text" />
               </div>
             </div>

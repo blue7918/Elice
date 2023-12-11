@@ -5,7 +5,7 @@ const FifthGrade03: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
       <div className="quizAll">
-        <div className="quiz1">
+        <div className="quiz1 quizMargin3">
           <div className="quizCard1 flexCol">
             <p className="quizNumber">①</p>
             <div className="fifthQuiz212">

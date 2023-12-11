@@ -3,128 +3,128 @@ export const IsTwoLine = (sub: string) => {
 };
 
 export const ThirdGrade1Day1 = {
-  title: '01 자리 나누어 더하기1',
+  title: '자리 나누어 더하기1',
   subTitle:
     '백의 자리, 십의 자리, 일의 자리를 각각 더하는 과정입니다.\n 빈칸에 알맞은 수를 써넣으세요.',
 };
 
 export const ThirdGrade1Day2 = {
-  title: '02 자리 나누어 더하기2',
+  title: '자리 나누어 더하기2',
   subTitle: '다음과 같은 방법으로 계산을 하세요.',
 };
 
 export const ThirdGrade1Day3 = {
-  title: '03 몇백과 몇십몇끼리 더하기',
+  title: '몇백과 몇십몇끼리 더하기',
   subTitle:
     '백의 자리와 몇십몇끼리 각각 더하는 과정입니다.\n 빈칸에 알맞은 수를 써넣으세요.',
 };
 
 export const ThirdGrade1Day4 = {
-  title: '04 몇백 만들어 더하기',
+  title: '몇백 만들어 더하기',
   subTitle:
     '몇백에 가까운 수가 있는 경우 그 수를 몇백을 만들고 더하는 과정입니다. 빈칸에 알맞은 수를 써넣으세요.',
 };
 
 export const ThirdGrade1Day5 = {
-  title: '05 문장제',
+  title: '문장제',
   subTitle: '글과 그림을 보고 물음에 알맞은 식을 세우고 답을 구하세요.',
 };
 
 export const ThirdGrade2Day1 = {
-  title: '01 (몇십)×(몇)',
+  title: '(몇십)×(몇)',
   subTitle: '덧셈식을 곱셈식으로 나타내고 값을 구하세요.',
 };
 export const ThirdGrade2Day2 = {
-  title: '02 (몇십몇)×(몇)',
+  title: '(몇십몇)×(몇)',
   subTitle: '빈칸에 알맞은 수를 써넣으세요.',
 };
 export const ThirdGrade2Day3 = {
-  title: '03 십의 자리에서의 올림',
+  title: '십의 자리에서의 올림',
   subTitle: '빈칸에 알맞은 수를 써넣으세요.',
 };
 export const ThirdGrade2Day4 = {
-  title: '04 일의 자리에서의 올림',
+  title: '일의 자리에서의 올림',
   subTitle: '빈칸에 알맞은 수를 써넣으세요.',
 };
 export const ThirdGrade2Day5 = {
-  title: '05 세로셈',
+  title: '세로셈',
   subTitle: '세로셈으로 계산하세요.',
 };
 export const ThirdGrade3Day1 = {
-  title: '01 (몇십)×(몇십)',
+  title: '(몇십)×(몇십)',
   subTitle: '빈칸에 알맞은 수를 써넣으세요.',
 };
 export const ThirdGrade3Day2 = {
-  title: '02 (몇십)×(몇십) 세로셈',
+  title: '(몇십)×(몇십) 세로셈',
   subTitle: '세로셈으로 계산하세요.',
 };
 export const ThirdGrade3Day3 = {
-  title: '03 (몇십몇)×(몇십)',
+  title: '(몇십몇)×(몇십)',
   subTitle: '빈칸에 알맞은 수를 써넣으세요.',
 };
 export const ThirdGrade3Day4 = {
-  title: '02 (몇십몇)×(몇십) 세로셈',
+  title: '(몇십몇)×(몇십) 세로셈',
   subTitle: '세로셈으로 계산하세요.',
 };
 
 export const FifthGrade1Day1 = {
-  title: '01 차례로 계산하기',
+  title: '차례로 계산하기',
   subTitle: '알맞은 수를 써넣어 차례로 계산하세요.',
 };
 
 export const FifthGrade1Day2 = {
-  title: '02 덧셈, 뺄셈과 괄호',
+  title: '덧셈, 뺄셈과 괄호',
   subTitle: '알맞은 수를 써넣어 식을 계산하세요.',
 };
 
 export const FifthGrade1Day3 = {
-  title: '03 곱셈, 나눗셈과 괄호',
+  title: '곱셈, 나눗셈과 괄호',
   subTitle: '알맞은 수를 써넣어 식을 계산하세요.',
 };
 
 export const FifthGrade1Day41 = {
-  title: '04 연산 퍼즐',
+  title: '연산 퍼즐',
   subTitle: '알맞은 수를 써넣으세요',
 };
 
 export const FifthGrade1Day42 = {
-  title: '04 연산 퍼즐',
+  title: '연산 퍼즐',
   subTitle: '두 식을 계산하세요',
 };
 
 export const FifthGrade1Day43 = {
-  title: '04 연산 퍼즐',
+  title: '연산 퍼즐',
   subTitle: '계산 하세요',
 };
 
 export const FifthGrade1Day5 = {
-  title: '05 문장제',
+  title: '문장제',
   subTitle: '문제를 읽고 하나의 식을 만들어 답을 구하세요.',
 };
 
 export const FifthGrade2Day11 = {
-  title: '01 약수',
+  title: '약수',
   subTitle: '빈칸에 알맞은 약수를 써넣으세요.',
 };
 
 export const FifthGrade2Day12 = {
-  title: '01 약수',
+  title: '약수',
   subTitle: '곱셈을 이용하여 약수를 구하세요',
 };
 
 export const FifthGrade2Day13 = {
-  title: '01 약수',
+  title: '약수',
   subTitle: '주어진 수들 중에서 약수인 것을 나열하세요.(예시: 1,2,4)',
 };
 
 export const FifthGrade2Day21 = {
-  title: '02 약수가 2개인 수',
+  title: '약수가 2개인 수',
   subTitle:
     '주어진 수의 약수를 모두 구하고 약수가 2개뿐인 수는 ○표, 아닌 것에는 X표 하세요',
 };
 
 export const FifthGrade2Day22 = {
-  title: '02 약수가 2개인 수',
+  title: '약수가 2개인 수',
   subTitle: '빈칸에 약수가 2개뿐인 수가 몇 개인지 써넣으세요.',
 };
 

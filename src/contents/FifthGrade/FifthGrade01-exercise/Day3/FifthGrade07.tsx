@@ -78,8 +78,8 @@ const FifthGrade07: React.FC = () => {
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4 marginLeft2"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 marginLeft3"></div>
+                <div className="d-line5 marginLeft2"></div>
               </div>
             </div>
             <div className="quizCardNone">
@@ -104,11 +104,11 @@ const FifthGrade07: React.FC = () => {
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4 marginLeft2"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 marginLeft3"></div>
+                <div className="d-line5 marginLeft2"></div>
               </div>
             </div>
-            <div className="quizCardNone">
+            <div className="quizCardNone quizMargin2">
               <p className="quizNumber">⑥</p>
               <div className="lineStyleCss">
                 <div className="flexrow">

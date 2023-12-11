@@ -587,39 +587,41 @@ const Styled = {
 
     .elementAbsol1 {
       position: absolute;
-      top: 0%;
-      right: 50%;
+      top: -24%;
+      right: 38%;
     }
 
     .elementAbsol2 {
       position: absolute;
-      top: 24%;
-      right: 20%;
+      top: 32%;
+      right: 13%;
     }
 
     .elementAbsol3 {
       position: absolute;
-      right: 28.5%;
-      top: 75%;
+      right: 26.5%;
+      top: 88%;
     }
     .elementAbsol4 {
       position: absolute;
-      right: 30%;
-      top: 75%;
+      right: 26.5%;
+      top: 88%;
     }
     .elementAbsol5 {
       position: absolute;
-      right: 27.5%;
-      top: 75%;
+      right: 25%;
+      top: 88%;
     }
     .inputSize1 {
       width: 3vw;
       height: 3vh;
       border-radius: 5px;
-      border: 1px solid #e2e2e2;
-      margin-top: 4%;
+      border: 1px solid gray;
       outline: none;
       padding-left: 4px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
     }
 
     .quiz {
@@ -634,7 +636,7 @@ const Styled = {
     .quiz1 {
       position: relative;
       display: grid;
-      grid-template-columns: 40% 40%;
+      grid-template-columns: 48% 48%;
       align-content: center;
       justify-content: center;
       margin-top: 50px;
@@ -667,16 +669,22 @@ const Styled = {
       margin: 3%;
     }
 
+    .quizCard p {
+      font-size: 20px;
+      font-weight: 600;
+    }
     .quizCard1 {
       width: 99%;
       height: 120px;
       padding: 23px;
-      background-color: #e2e2e2;
+      font-size: 25px;
       position: relative;
       border-radius: 10px;
       display: flex;
       justify-content: center;
       margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
       .margin5px {
         margin-top: 5px;
       }
@@ -686,12 +694,13 @@ const Styled = {
       width: 92%;
       height: 120px;
       padding: 25px;
-      background-color: #e2e2e2;
       position: relative;
       border-radius: 10px;
       display: flex;
       justify-content: center;
       margin: 50px 0px;
+      font-weight: 600;
+      font-size: 25px;
     }
 
     .quizNumber {
@@ -710,7 +719,7 @@ const Styled = {
 
     .textRight {
       margin-top: 1%;
-      margin-left: 60px;
+      margin-left: 70px;
       text-align: center;
     }
 
@@ -730,16 +739,18 @@ const Styled = {
       align-content: center;
       justify-content: center;
       margin-left: 40px;
+      font-weight: 600;
+      font-size: 25px;
     }
 
     .lineStyleCss {
       .d-line {
         width: 0; /* 가로 길이 조절 */
-        height: 32px; /* 세로 길이 조절 */
+        height: 46px; /* 세로 길이 조절 */
         border: 0.5px solid red;
         position: absolute;
-        left: 21%;
-        top: 13%;
+        left: 23%;
+        top: 11%;
         transform: rotate(-90deg);
       }
 
@@ -747,8 +758,8 @@ const Styled = {
       .d-line:after {
         content: '';
         position: absolute;
-        width: 7px; /* 가로 길이 조절 */
-        height: 1px; /* 세로 길이 조절 */
+        width: 8px; /* 가로 길이 조절 */
+        height: 2px; /* 세로 길이 조절 */
         background-color: red; /* 선의 색상 설정 */
       }
 
@@ -759,27 +770,27 @@ const Styled = {
       }
 
       .d-line:after {
-        top: 30px;
+        bottom: -1px;
         left: 0px; /* 가로 길이의 절반만큼 이동 */
         transform: rotate(0deg);
       }
 
       .d-line1 {
         width: 0; /* 가로 길이 조절 */
-        height: 42px; /* 세로 길이 조절 */
+        height: 76px; /* 세로 길이 조절 */
         border: 0.5px solid red;
         position: absolute;
         transform: rotate(-90deg);
-        left: 25%;
-        top: 47%;
+        left: 28%;
+        top: 45%;
       }
 
       .d-line1:before,
       .d-line1:after {
         content: '';
         position: absolute;
-        width: 7px; /* 가로 길이 조절 */
-        height: 1px; /* 세로 길이 조절 */
+        width: 8px; /* 가로 길이 조절 */
+        height: 2px; /* 세로 길이 조절 */
         background-color: red; /* 선의 색상 설정 */
       }
 
@@ -790,19 +801,19 @@ const Styled = {
       }
 
       .d-line1:after {
-        width: 38px; /* 가로 길이 조절 */
-        top: 40px;
+        width: 76px; /* 가로 길이 조절 */
+        bottom: -1px;
         left: 0px; /* 가로 길이의 절반만큼 이동 */
         transform: rotate(0deg);
       }
 
       .d-line2 {
         width: 0; /* 가로 길이 조절 */
-        height: 32px; /* 세로 길이 조절 */
+        height: 40px; /* 세로 길이 조절 */
         border: 0.5px solid red;
         position: absolute;
         transform: rotate(-90deg);
-        right: 35%;
+        right: 30%;
         top: 12%;
       }
 
@@ -810,8 +821,8 @@ const Styled = {
       .d-line2:after {
         content: '';
         position: absolute;
-        width: 7px; /* 가로 길이 조절 */
-        height: 1px; /* 세로 길이 조절 */
+        width: 8px; /* 가로 길이 조절 */
+        height: 2px; /* 세로 길이 조절 */
         background-color: red; /* 선의 색상 설정 */
       }
 
@@ -822,18 +833,18 @@ const Styled = {
       }
 
       .d-line2:after {
-        top: 30px;
+        bottom: -1px;
         left: 0px; /* 가로 길이의 절반만큼 이동 */
         transform: rotate(0deg);
       }
       .d-line3 {
         width: 0; /* 가로 길이 조절 */
-        height: 42px; /* 세로 길이 조절 */
-        border: 0.5px solid red;
+        height: 76px; /* 세로 길이 조절 */
+        border: 1px solid red;
         position: absolute;
         transform: rotate(-90deg);
-        right: 39%;
-        top: 43%;
+        right: 36%;
+        top: 44%;
       }
 
       .d-line3:before,
@@ -841,7 +852,7 @@ const Styled = {
         content: '';
         position: absolute;
         width: 8px; /* 가로 길이 조절 */
-        height: 1px; /* 세로 길이 조절 */
+        height: 2px; /* 세로 길이 조절 */
         background-color: red; /* 선의 색상 설정 */
       }
 
@@ -849,31 +860,31 @@ const Styled = {
         top: -1px;
         left: 0;
         transform: rotate(0deg);
-        width: 38px; /* 좌측 세로 길이 조절 */
+        width: 76px; /* 좌측 세로 길이 조절 */
       }
 
       .d-line3:after {
-        top: 40px;
+        bottom: -1px;
         left: 0px; /* 가로 길이의 절반만큼 이동 */
         transform: rotate(0deg);
       }
 
       .d-line4 {
         width: 0; /* 가로 길이 조절 */
-        height: 32px; /* 세로 길이 조절 */
+        height: 46px; /* 세로 길이 조절 */
         border: 0.5px solid red;
         position: absolute;
         transform: rotate(-90deg);
-        right: 45%;
-        top: 34%;
+        right: 43%;
+        top: 38%;
       }
 
       .d-line4:before,
       .d-line4:after {
         content: '';
         position: absolute;
-        width: 7px; /* 가로 길이 조절 */
-        height: 1px; /* 세로 길이 조절 */
+        width: 8px; /* 가로 길이 조절 */
+        height: 2px; /* 세로 길이 조절 */
         background-color: red; /* 선의 색상 설정 */
       }
 
@@ -884,19 +895,19 @@ const Styled = {
       }
 
       .d-line4:after {
-        top: 30px;
+        bottom: -1px;
         left: 0px; /* 가로 길이의 절반만큼 이동 */
         transform: rotate(0deg);
       }
 
       .d-line5 {
         width: 0; /* 가로 길이 조절 */
-        height: 48px; /* 세로 길이 조절 */
+        height: 92px; /* 세로 길이 조절 */
         border: 0.5px solid red;
         position: absolute;
         transform: rotate(-90deg);
-        left: 43%;
-        top: 62%;
+        left: 40%;
+        top: 80%;
       }
 
       .d-line5:before,
@@ -904,7 +915,7 @@ const Styled = {
         content: '';
         position: absolute;
         width: 8px; /* 가로 길이 조절 */
-        height: 1px; /* 세로 길이 조절 */
+        height: 2px; /* 세로 길이 조절 */
         background-color: red; /* 선의 색상 설정 */
       }
 
@@ -912,21 +923,24 @@ const Styled = {
         top: -1px;
         left: 0;
         transform: rotate(0deg);
-        width: 38px; /* 좌측 세로 길이 조절 */
+        width: 65px; /* 좌측 세로 길이 조절 */
       }
 
       .d-line5:after {
-        top: 46px;
+        bottom: -1px;
         left: 0px; /* 가로 길이의 절반만큼 이동 */
         transform: rotate(0deg);
       }
 
       .marginLeft1 {
-        right: 33%;
+        right: 27%;
       }
 
       .marginLeft2 {
         right: 44.5%;
+      }
+      .marginLeft3 {
+        left: 59%;
       }
     }
     .flexrow {
@@ -936,13 +950,15 @@ const Styled = {
         margin-left: 8px;
       }
       .margin10px {
+        white-space: nowrap;
         margin-left: 14px;
       }
     }
 
     .borderRedSq {
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       color: red;
@@ -951,20 +967,22 @@ const Styled = {
     }
 
     .borderRedSqAb1 {
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       color: red;
       border-radius: 2px;
       position: absolute;
-      top: 35%;
+      top: 32%;
       left: 19%;
     }
 
     .borderRedSqAb2 {
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       color: red;
@@ -975,20 +993,22 @@ const Styled = {
     }
 
     .borderRedSqAb3 {
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       color: red;
       border-radius: 2px;
       position: absolute;
       top: 35%;
-      left: 62.5%;
+      left: 66%;
     }
 
     .borderRedSqAb4 {
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       color: red;
@@ -1006,47 +1026,52 @@ const Styled = {
       border-radius: 10px;
       display: flex;
       justify-content: center;
-      margin: 3%;
+      margin: 10%;
+      font-size: 25px;
+      font-weight: 600;
     }
 
     .borderRedInput1 {
       font-size: 10px;
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       border-radius: 2px;
       position: absolute;
-      top: 25%;
-      right: 13%;
+      top: 22%;
+      right: -5%;
       outline: none;
       padding-left: 3px;
     }
 
     .borderRedInput2 {
       font-size: 10px;
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       border-radius: 2px;
       position: absolute;
-      top: 54%;
-      right: 41%;
+      top: 69%;
+      right: 35%;
       outline: none;
       padding-left: 3px;
     }
 
     .borderRedInput3 {
       font-size: 10px;
-      width: 20px;
-      height: 20px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       text-align: center;
       border: 1px solid gray;
       border-radius: 2px;
       position: absolute;
-      top: 92%;
-      right: 51%;
+      top: 134%;
+      right: 58%;
       outline: none;
       padding-left: 3px;
     }
@@ -1054,6 +1079,13 @@ const Styled = {
       margin-right: 80px;
     }
 
+    .quizMargin2 {
+      margin-bottom: 120px;
+    }
+
+    .quizMargin3 {
+      grid-column-gap: 80px;
+    }
     .imgInputSet input {
       position: absolute;
       width: 60px;
@@ -1126,10 +1158,11 @@ const Styled = {
       margin-left: 6.5px;
     }
     .averageInput {
-      width: 22px;
-      height: 22px;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
       border-radius: 2px;
-      border: 1px solid #e2e2e2;
+      border: 1px solid gray;
       text-align: center;
       outline: none;
     }
@@ -1137,6 +1170,7 @@ const Styled = {
       display: flex;
       flex-direction: row;
       align-items: center;
+      margin-top: 30px;
     }
     .fifthQuiz212 div {
       margin: 0px 8px;
@@ -1147,21 +1181,22 @@ const Styled = {
       white-space: nowrap;
     }
     .fifthQuiz213Input {
-      width: 82px;
-      height: 22px;
+      width: 102px;
+      height: 42px;
+      font-size: 22px;
       border-radius: 5px;
-      border: 1px solid #e2e2e2;
+      border: 1px solid gray;
       text-align: center;
       outline: none;
     }
     .fifthQuiz221Input {
       width: 182px;
-      height: 33px;
+      height: 45px;
       border-radius: 5px;
-      border: 1px solid #e2e2e2;
+      border: 1px solid gray;
       text-align: center;
-      font-size: 15px;
-      margin: 0px 20px;
+      font-size: 22px;
+      margin: 0px 50px;
       outline: none;
     }
     .fifthGrade223Grid {
@@ -1180,8 +1215,9 @@ const Styled = {
     .fifthGrade223Input {
       width: 42px;
       height: 42px;
+      font-size: 22px;
       border-radius: 2px;
-      border: 1px solid #e2e2e2;
+      border: 1px solid gray;
       text-align: center;
       outline: none;
       margin: 0px 10px 0px 20px;

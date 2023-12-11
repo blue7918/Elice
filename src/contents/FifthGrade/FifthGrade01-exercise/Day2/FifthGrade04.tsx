@@ -82,7 +82,7 @@ const FifthGrade04: React.FC = () => {
                 <div className="d-line5"></div>
               </div>
             </div>
-            <div className="quizCardNone">
+            <div className="quizCardNone ">
               <p className="quizNumber">④</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
@@ -95,7 +95,7 @@ const FifthGrade04: React.FC = () => {
                 <div className="d-line5"></div>
               </div>
             </div>
-            <div className="quizCardNone">
+            <div className="quizCardNone quizMargin2">
               <p className="quizNumber">⑤</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
