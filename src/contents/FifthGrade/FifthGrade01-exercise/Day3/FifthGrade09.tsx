@@ -5,14 +5,14 @@ const FifthGrade09: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
       <div className="quizAll">
-        <div className="quiz1">
-          <div className="quizCard1">
+        <div className="quiz3">
+          <div className="quizCard1 marginbottom0">
             <p className="quizNumber">①</p>
             <div className="marginTop18">
               36 ÷ (9 × 2) = <input className="inputSize1" type="text" />
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard1 marginbottom0">
             <p className="quizNumber">②</p>
             <div className="marginTop18">
               88 ÷ (8 ÷ 4) = <input className="inputSize1" type="text" />

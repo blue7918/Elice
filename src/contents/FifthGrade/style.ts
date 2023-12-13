@@ -584,42 +584,63 @@ const Styled = {
       justify-content: center;
       align-content: center;
     }
-
+    .explain1 {
+      position: absolute;
+      top: -40%;
+      left: -25%;
+      font-size: 20px;
+    }
+    .explain2 {
+      position: absolute;
+      bottom: -3%;
+      font-size: 15px;
+      font-weight: 600;
+    }
     .elementAbsol1 {
       position: absolute;
-      top: -24%;
-      right: 38%;
+      top: -12%;
+      right: 42%;
     }
 
     .elementAbsol2 {
       position: absolute;
-      top: 32%;
+      top: 28%;
       right: 13%;
     }
 
     .elementAbsol3 {
       position: absolute;
       right: 26.5%;
-      top: 88%;
+      top: 73%;
     }
     .elementAbsol4 {
       position: absolute;
       right: 26.5%;
-      top: 88%;
+      top: 73%;
     }
     .elementAbsol5 {
       position: absolute;
       right: 25%;
-      top: 88%;
+      top: 73%;
+    }
+    .elementAbsol6 {
+      position: absolute;
+      top: 28%;
+      right: 9%;
+    }
+    .elementAbsol7 {
+      position: absolute;
+      top: -12%;
+      right: 46%;
     }
     .inputSize1 {
       width: 3vw;
-      height: 3vh;
+      height: 4vh;
       border-radius: 5px;
       border: 1px solid gray;
       outline: none;
       padding-left: 4px;
-      font-size: 1.2rem;
+      font-size: 25px;
       font-weight: 600;
       text-align: center;
     }
@@ -632,7 +653,14 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
-
+    .quiz332 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 60%;
+      align-content: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
     .quiz1 {
       position: relative;
       display: grid;
@@ -650,12 +678,27 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
-
+    .quiz3 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 38% 38%;
+      align-content: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
     .quizAll {
       margin-top: 30px;
       width: 100%;
     }
-
+    .quizAllLate {
+      position: relative;
+    }
+    .quizAllLine {
+      margin-top: 30px;
+      width: 100%;
+      position: relative;
+      white-space: nowrap;
+    }
     .quizCard {
       width: 90%;
       height: 190px;
@@ -668,14 +711,25 @@ const Styled = {
       justify-content: center;
       margin: 3%;
     }
-
+    .absolSetting121 {
+      width: 98%;
+      padding: 73px 23px;
+      border: 1px solid #e9e9e9;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 3%;
+      white-space: nowrap;
+    }
     .quizCard p {
       font-size: 20px;
       font-weight: 600;
     }
-    .quizCard1 {
-      width: 99%;
-      height: 120px;
+    .quizCardnocolor {
+      width: 85%;
+      height: 140px;
       padding: 23px;
       font-size: 25px;
       position: relative;
@@ -685,11 +739,95 @@ const Styled = {
       margin: 3%;
       margin-bottom: 8%;
       font-weight: 600;
+      white-space: nowrap;
       .margin5px {
         margin-top: 5px;
       }
     }
-
+    .quizCard11 {
+      width: 85%;
+      height: 140px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      white-space: nowrap;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
+    .quizCard1 {
+      width: 85%;
+      height: 140px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      background-color: #e9e9e9;
+      white-space: nowrap;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
+    .marginbottom0 {
+      margin-bottom: 0px;
+    }
+    .quizCard2 {
+      width: 85%;
+      height: 140px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      background-color: #d0e0ff;
+      white-space: nowrap;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
+    .quizCard3 {
+      width: 85%;
+      height: 140px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      background-color: #ddd3ff;
+      white-space: nowrap;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
+    .img141 {
+      width: 800px;
+      position: absolute;
+      right: 0px;
+      top: 6.8%;
+    }
+    .imgfake {
+      width: 800px;
+      height: 1013.17px;
+    }
     .quizCard4 {
       width: 92%;
       height: 120px;
@@ -701,12 +839,77 @@ const Styled = {
       margin: 50px 0px;
       font-weight: 600;
       font-size: 25px;
+      background-color: #e9e9e9;
+      white-space: nowrap;
     }
-
+    .quizCard332 {
+      width: 72%;
+      height: 120px;
+      padding: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 50px 0px;
+      font-weight: 600;
+      font-size: 25px;
+      background-color: #e2e2e2;
+      white-space: nowrap;
+      margin: 50px 0px 0px 50px;
+    }
+    .colorNum1 {
+      background-color: #d0e0ff;
+    }
+    .colorNum2 {
+      background-color: #ddd3ff;
+    }
+    .quizCard5 {
+      width: 92%;
+      height: 120px;
+      padding: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 50px 0px;
+      font-weight: 600;
+      font-size: 25px;
+      background-color: #d0e0ff;
+      white-space: nowrap;
+    }
+    .quizCard6 {
+      width: 92%;
+      height: 120px;
+      padding: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 50px 0px;
+      font-weight: 600;
+      font-size: 25px;
+      background-color: #ddd3ff;
+      white-space: nowrap;
+    }
+    .lineAbSet1 {
+      position: absolute;
+      top: 33%;
+      left: 20%;
+    }
+    .lineAbSet2 {
+      position: absolute;
+      top: 33%;
+      left: 65%;
+    }
+    .lineAbSet3 {
+      position: absolute;
+      top: 33%;
+      left: 18%;
+    }
     .quizNumber {
       position: absolute;
-      left: 2%;
-      top: -10%;
+      left: -10%;
+      top: 17%;
     }
 
     .sectionSize {
@@ -718,63 +921,74 @@ const Styled = {
     }
 
     .textRight {
-      margin-top: 1%;
-      margin-left: 70px;
+      margin-top: 3%;
+      margin-left: 33%;
       text-align: center;
     }
 
     .textRight2 {
-      margin-top: 1%;
-      margin-left: 50px;
+      margin-top: 3%;
+      margin-left: 55%;
+      text-align: center;
+    }
+    .textRight3 {
+      margin-top: 3%;
+      margin-left: 110px;
+      text-align: center;
+    }
+    .textRight4 {
+      margin-top: 3%;
+      margin-left: 120px;
       text-align: center;
     }
     .marginTop18 {
-      margin-top: 18px;
+      margin-top: 28px;
       margin-left: 10px;
     }
 
     .twoQuiz {
-      display: grid;
-      grid-template-columns: 40% 40%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
       align-content: center;
       justify-content: center;
-      margin-left: 40px;
       font-weight: 600;
       font-size: 25px;
     }
 
+    .quiz121Ex {
+      position: relative;
+    }
+    .d-line {
+      width: 0; /* 가로 길이 조절 */
+      height: 59px; /* 세로 길이 조절 */
+      border: 0.5px solid red;
+      position: absolute;
+      transform: rotate(-90deg);
+    }
+
+    .d-line:before,
+    .d-line:after {
+      content: '';
+      position: absolute;
+      width: 8px; /* 가로 길이 조절 */
+      height: 2px; /* 세로 길이 조절 */
+      background-color: red; /* 선의 색상 설정 */
+    }
+
+    .d-line:before {
+      top: -1px;
+      left: 0;
+      transform: rotate(0deg);
+    }
+
+    .d-line:after {
+      bottom: -1px;
+      left: 0px; /* 가로 길이의 절반만큼 이동 */
+      transform: rotate(0deg);
+    }
+
     .lineStyleCss {
-      .d-line {
-        width: 0; /* 가로 길이 조절 */
-        height: 46px; /* 세로 길이 조절 */
-        border: 0.5px solid red;
-        position: absolute;
-        left: 23%;
-        top: 11%;
-        transform: rotate(-90deg);
-      }
-
-      .d-line:before,
-      .d-line:after {
-        content: '';
-        position: absolute;
-        width: 8px; /* 가로 길이 조절 */
-        height: 2px; /* 세로 길이 조절 */
-        background-color: red; /* 선의 색상 설정 */
-      }
-
-      .d-line:before {
-        top: -1px;
-        left: 0;
-        transform: rotate(0deg);
-      }
-
-      .d-line:after {
-        bottom: -1px;
-        left: 0px; /* 가로 길이의 절반만큼 이동 */
-        transform: rotate(0deg);
-      }
-
       .d-line1 {
         width: 0; /* 가로 길이 조절 */
         height: 76px; /* 세로 길이 조절 */
@@ -943,6 +1157,18 @@ const Styled = {
         left: 59%;
       }
     }
+    .img1211 {
+      position: absolute;
+      left: 7%;
+      top: 21%;
+      width: 150px;
+    }
+    .img1212 {
+      position: absolute;
+      left: 8%;
+      top: 21%;
+      width: 150px;
+    }
     .flexrow {
       display: flex;
       flex-direction: row;
@@ -955,6 +1181,60 @@ const Styled = {
       }
     }
 
+    .marginLeft7 {
+      margin-left: 8%;
+      margin-top: 5%;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+    }
+    .marginLeft8 {
+      margin-left: 24%;
+      margin-top: 14%;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+    }
+    .marginLeft9 {
+      margin-left: 1%;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+    }
+    .marginLeft10 {
+      margin-left: 33%;
+      margin-top: 4%;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+    }
+    .marginLeft11 {
+      margin-top: 10%;
+      margin-left: 12%;
+      width: 42px;
+      height: 42px;
+      font-size: 25px;
+      text-align: center;
+      border: 1px solid gray;
+      color: red;
+      border-radius: 2px;
+    }
     .borderRedSq {
       width: 42px;
       height: 42px;
@@ -1095,43 +1375,43 @@ const Styled = {
     }
 
     .imgInput1 {
-      top: 7.8%;
-      right: 31.5%;
+      top: 77px;
+      right: 151px;
     }
 
     .imgInput2 {
-      top: 31.8%;
-      right: 43.5%;
+      top: 224px;
+      right: 297px;
     }
 
     .imgInput3 {
-      top: 55.5%;
-      right: 19.5%;
+      top: 367px;
+      right: 7px;
     }
 
     .imgInput4 {
-      top: 79%;
-      right: 31.5%;
+      top: 513px;
+      right: 152px;
     }
 
     .imgInput5 {
-      top: 103%;
-      right: 55.5%;
+      top: 660px;
+      right: 442px;
     }
 
     .imgInput6 {
-      top: 103%;
-      right: 19.5%;
+      top: 659px;
+      right: 8px;
     }
 
     .imgInput7 {
-      top: 126.1%;
-      right: 43.5%;
+      top: 803px;
+      right: 588px;
     }
 
     .imgInput8 {
-      top: 126.1%;
-      right: 67.5%;
+      top: 803px;
+      right: 298px;
     }
     .flexCol {
       display: flex;

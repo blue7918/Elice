@@ -18,7 +18,7 @@ const FifthGrade01: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard2">
             <p className="quizNumber">②</p>
             <div className="margin5px">
               <div>
@@ -29,7 +29,7 @@ const FifthGrade01: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard3">
             <p className="quizNumber">③</p>
             <div className="margin5px">
               <div>
@@ -51,7 +51,7 @@ const FifthGrade01: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard2">
             <p className="quizNumber">⑤</p>
             <div className="absolSetting">
               <div className="elementAbsol1">35 - 27 + 9 - 14</div>
@@ -64,7 +64,7 @@ const FifthGrade01: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard3">
             <p className="quizNumber">⑥</p>
             <div className="absolSetting">
               <div className="elementAbsol1">28 + 15 - 17 - 20</div>
@@ -81,7 +81,7 @@ const FifthGrade01: React.FC = () => {
             <p className="quizNumber">⑦</p>
             <div className="absolSetting">
               <div className="elementAbsol1">15 + 4 - 16 + 11</div>
-              <div className="elementAbsol2">
+              <div className="elementAbsol6">
                 <input className="inputSize1" type="text" /> - 16 + 11 ={' '}
                 <input className="inputSize1" type="text" /> + 11
               </div>
@@ -90,7 +90,7 @@ const FifthGrade01: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard2">
             <p className="quizNumber">⑧</p>
             <div className="absolSetting">
               <div className="elementAbsol1">35 + 8 - 26 + 9</div>

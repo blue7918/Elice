@@ -17,7 +17,7 @@ const FifthGrade02: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard2">
             <p className="quizNumber">②</p>
             <div className="margin5px">
               <div>
@@ -28,7 +28,7 @@ const FifthGrade02: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard3">
             <p className="quizNumber">③</p>
             <div className="margin5px">
               <div>
@@ -51,10 +51,10 @@ const FifthGrade02: React.FC = () => {
             </div>
           </div>
 
-          <div className="quizCard1">
+          <div className="quizCard2">
             <p className="quizNumber">⑤</p>
             <div className="absolSetting">
-              <div className="elementAbsol1">4 × 8 ÷ 2 × 6</div>
+              <div className="elementAbsol7">4 × 8 ÷ 2 × 6</div>
               <div className="elementAbsol2">
                 <input className="inputSize1" type="text" /> ÷ 2 × 6 ={' '}
                 <input className="inputSize1" type="text" /> × 6
@@ -64,7 +64,7 @@ const FifthGrade02: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard3">
             <p className="quizNumber">⑥</p>
             <div className="absolSetting">
               <div className="elementAbsol1">12 ÷ 2 × 4 × 5</div>
@@ -90,7 +90,7 @@ const FifthGrade02: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="quizCard1">
+          <div className="quizCard2">
             <p className="quizNumber">⑧</p>
             <div className="absolSetting">
               <div className="elementAbsol1">36 ÷ 3 ÷ 4 × 9</div>

@@ -4,8 +4,13 @@ import Styled from '../../style';
 const FifthGrade10: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll">
-        <img src={`${process.env.PUBLIC_URL}/1-4-1.png`} alt="" />
+      <div className="quizAllLate">
+        <div className="imgfake"></div>
+        <img
+          className="img141"
+          src={`${process.env.PUBLIC_URL}/1-4-1.png`}
+          alt=""
+        />
         <div className="imgInputSet">
           <input className="imgInput1" type="text" />
           <input className="imgInput2" type="text" />

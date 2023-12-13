@@ -7,39 +7,42 @@ const FifthGrade07: React.FC = () => {
       <div className="quizAll">
         <div className="quiz">
           {/*  예제 문제  */}
-          <div className="quizCard">
-            <p>( )가 있는 식은 ( )안을 먼저 계산합니다.</p>
-            <div className="absolSetting">
+          <div className="quizCard121">
+            <div className="absolSetting121">
               <div className="twoQuiz">
-                <div className="lineStyleCss">
+                <div className="quiz121Ex">
+                  <p className="explain1">
+                    ( )가 있는 식은 ( )안을 먼저 계산합니다.
+                  </p>
                   <div className="flexrow">
-                    <div className="margin8px">24 ÷ 4 × 2 = </div>
-                    <div className="borderRedSq">12</div>
+                    24 ÷ 4 × 2 = <div className="marginLeft9">12</div>
                   </div>
-                  <div className="borderRedSqAb1">6</div>
-                  <div className="borderRedSqAb2">12</div>
-                  <div className="d-line"></div>
-                  <div className="d-line1"></div>
+                  <div className="marginLeft7">6</div>
+                  <div className="marginLeft8">12</div>
+                  <img
+                    className="img1211"
+                    src={`${process.env.PUBLIC_URL}/1-2-1_1.png`}
+                    alt=""
+                  />
                 </div>
-                <div className="lineStyleCss">
+                <div className="quiz121Ex">
                   <div className="flexrow">
-                    <div className="margin10px">24 ÷ (4 × 2) = </div>
-                    <div className="borderRedSq">3</div>
+                    24 ÷ (4 × 2) = <div className="marginLeft9">3</div>
                   </div>
-                  <div className="borderRedSqAb3">8</div>
-                  <div className="borderRedSqAb4">3</div>
-                  <div className="d-line2 marginLeft1"></div>
-                  <div className="d-line3"></div>
+                  <div className="marginLeft10">8</div>
+                  <div className="marginLeft11">3</div>
+                  <img
+                    className="img1212"
+                    src={`${process.env.PUBLIC_URL}/1-2-1_2.png`}
+                    alt=""
+                  />
                 </div>
-                <br />
-                <br />
-                <br />
               </div>
+              <p className="explain2">
+                두 식을 비교해보면 ( )가 있을 때와 없을 때 계산 순서가 달라서
+                계산 결과가 다릅니다.
+              </p>
             </div>
-            <p>
-              두 식을 비교해보면 ( )가 있을 때와 없을 때 계산 순서가 달라서 계산
-              결과가 다릅니다.
-            </p>
           </div>
           {/* 예제문제 끝 */}
           <div className="quiz1">
