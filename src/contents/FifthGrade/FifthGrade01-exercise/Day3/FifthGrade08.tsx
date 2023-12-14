@@ -4,47 +4,98 @@ import Styled from '../../style';
 const FifthGrade08: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll">
-        <div className="quiz332">
-          <div className="quizCard332">
-            <p className="quizNumber">①</p>
+      <div className="grid1222">
+        <div className="gridyoso1224">
+          <div className="flexRow asdfawef">
+            <p className="quizNumber1227">①</p>
             <div>
-              7 × 3 × 4 = <input className="inputSize1" type="text" /> × 4
-              <br />
-              <div className="textRight3">
-                = 7 × <input className="inputSize1" type="text" />
+              <div className="nottt1123">
+                7 × 3 × 4 = <input type="text" className="input1123" /> × 4
+                <div className="d-line126 line13225"></div>
+                <div className="d-line126 line13226"></div>
+              </div>
+              <div className="nottt1123 marginwtwtt">
+                = <input type="text" className="input1123" />
+              </div>
+            </div>
+            <div>
+              <div className="nottt1123">
+                7 × (3 × 4) = 7 × <input type="text" className="input1123" />
+              </div>
+              <div className="nottt1123 marginwtwt">
+                = <input type="text" className="input1123" />
               </div>
             </div>
           </div>
-          <div className="quizCard332 colorNum1">
-            <p className="quizNumber">②</p>
+        </div>
+        <div className="gridyoso1222">
+          <div className="flexRow asdfawef">
+            <p className="quizNumber1227">②</p>
             <div>
-              64 ÷ 8 ÷ 2 = <input className="inputSize1" type="text" /> ÷ 2
-              <br />
-              <div className="textRight4">
-                = 64 ÷<input className="inputSize1" type="text" />
+              <div className="nottt1123">
+                64 ÷ 8 ÷ 2 =<input type="text" className="input1123" /> ÷ 2
+                <div className="d-line126 line13222"></div>
+                <div className="d-line123 line13223"></div>
+              </div>
+              <div className="nottt1123 marginwtwtt11">
+                = <input type="text" className="input1123" />
+              </div>
+            </div>
+            <div>
+              <div className="nottt1123">
+                64 ÷ (8 ÷ 2) = 64 ÷
+                <input type="text" className="input1123" />
+              </div>
+              <div className="nottt1123 marginwtwtt12">
+                = <input type="text" className="input1123" />
               </div>
             </div>
           </div>
-
-          <div className="quizCard332 colorNum2">
-            <p className="quizNumber">③</p>
+        </div>
+        <div className="gridyoso1223">
+          <div className="flexRow asdfawef">
+            <p className="quizNumber1227">③</p>
             <div>
-              90 ÷ 5 × 2 = <input className="inputSize1" type="text" /> × 2
-              <br />
-              <div className="textRight4">
-                = 90 ÷<input className="inputSize1" type="text" />
+              <div className="nottt1123">
+                90 ÷ 5 × 2 =<input type="text" className="input1123" /> × 2
+                <div className="d-line126 line13222"></div>
+                <div className="d-line123 line13223"></div>
+              </div>
+              <div className="nottt1123 marginwtwtt">
+                = <input type="text" className="input1123" />
+              </div>
+            </div>
+            <div>
+              <div className="nottt1123">
+                90 ÷ (5 × 2) = 90 ÷
+                <input type="text" className="input1123" />
+              </div>
+              <div className="nottt1123 marginwtwt">
+                = <input type="text" className="input1123" />
               </div>
             </div>
           </div>
-
-          <div className="quizCard332">
-            <p className="quizNumber">④</p>
+        </div>
+        <div className="gridyoso1224">
+          {' '}
+          <div className="flexRow asdfawef">
+            <p className="quizNumber1227">④</p>
             <div>
-              5 × 12 ÷ 6 = <input className="inputSize1" type="text" /> ÷ 6
-              <br />
-              <div className="textRight4">
-                = 5 × <input className="inputSize1" type="text" />
+              <div className="nottt1123">
+                5 × 12 ÷ 6 = <input type="text" className="input1123" /> ÷ 6
+                <div className="d-line126 line13230"></div>
+                <div className="d-line126 line13232"></div>
+              </div>
+              <div className="nottt1123 marginwtwtt13">
+                = <input type="text" className="input1123" />
+              </div>
+            </div>
+            <div>
+              <div className="nottt1123">
+                5 × (12 ÷ 6) = 5 × <input type="text" className="input1123" />
+              </div>
+              <div className="nottt1123 marginwtwtt12">
+                = <input type="text" className="input1123" />
               </div>
             </div>
           </div>

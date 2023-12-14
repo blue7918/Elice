@@ -37,21 +37,23 @@ const FifthGrade04: React.FC = () => {
                     alt=""
                   />
                 </div>
+                <p className="explain2">
+                  두 식을 비교해보면 ( )가 있을 때와 없을 때 계산 순서가 달라서
+                  계산 결과가 다릅니다.
+                </p>
               </div>
-              <p className="explain2">
-                두 식을 비교해보면 ( )가 있을 때와 없을 때 계산 순서가 달라서
-                계산 결과가 다릅니다.
-              </p>
             </div>
           </div>
           {/* 예제문제 끝 */}
-          <div className="quiz1">
+          <div className="quiz1211">
             <div className="quizCardNone">
-              <p className="quizNumber">①</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
-                  <div>23 - (16 - 3) = </div>
-                  <input type="text" className="borderRedInput1" />
+                  <div className="flexRow">
+                    <p className="quizNumber1211 quizMargin1131">①</p>
+                    23 - (16 - 3) ={' '}
+                    <input type="text" className="borderRedInput1211" />
+                  </div>
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
@@ -60,11 +62,13 @@ const FifthGrade04: React.FC = () => {
               </div>
             </div>
             <div className="quizCardNone">
-              <p className="quizNumber">②</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
-                  <div>14 + (32 - 7) = </div>
-                  <input type="text" className="borderRedInput1" />
+                  <div className="flexRow">
+                    <p className="quizNumber1211 quizMargin1131">②</p>
+                    14 + (32 - 7) ={' '}
+                    <input type="text" className="borderRedInput1211" />
+                  </div>
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
@@ -73,11 +77,13 @@ const FifthGrade04: React.FC = () => {
               </div>
             </div>
             <div className="quizCardNone">
-              <p className="quizNumber">③</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
-                  <div>103 - (35 + 26) = </div>
-                  <input type="text" className="borderRedInput1" />
+                  <div className="flexRow">
+                    <p className="quizNumber1211 quizMargin1131">③</p>
+                    103 - (35 + 26) ={' '}
+                    <input type="text" className="borderRedInput1211" />
+                  </div>
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
@@ -86,11 +92,13 @@ const FifthGrade04: React.FC = () => {
               </div>
             </div>
             <div className="quizCardNone ">
-              <p className="quizNumber">④</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
-                  <div>89 - (54 - 38) = </div>
-                  <input type="text" className="borderRedInput1" />
+                  <div className="flexRow">
+                    <p className="quizNumber1211 quizMargin1131">④</p>
+                    89 - (54 - 38) ={' '}
+                    <input type="text" className="borderRedInput1211" />
+                  </div>
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
@@ -99,11 +107,13 @@ const FifthGrade04: React.FC = () => {
               </div>
             </div>
             <div className="quizCardNone quizMargin2">
-              <p className="quizNumber">⑤</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
-                  <div>127 - (65 + 36) = </div>
-                  <input type="text" className="borderRedInput1" />
+                  <div className="flexRow">
+                    <p className="quizNumber1211 quizMargin1131">⑤</p>
+                    127 - (65 + 36) ={' '}
+                    <input type="text" className="borderRedInput1211" />
+                  </div>
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />
@@ -112,11 +122,13 @@ const FifthGrade04: React.FC = () => {
               </div>
             </div>
             <div className="quizCardNone">
-              <p className="quizNumber">⑥</p>
               <div className="lineStyleCss">
                 <div className="flexrow">
-                  <div>71 + (15 + 27) = </div>
-                  <input type="text" className="borderRedInput1" />
+                  <div className="flexRow">
+                    <p className="quizNumber1211 quizMargin1131">⑥</p>
+                    71 + (15 + 27) ={' '}
+                    <input type="text" className="borderRedInput1211" />
+                  </div>
                 </div>
                 <input type="text" className="borderRedInput2" />
                 <input type="text" className="borderRedInput3" />

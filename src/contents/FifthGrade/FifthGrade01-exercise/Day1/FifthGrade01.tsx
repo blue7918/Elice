@@ -7,7 +7,7 @@ const FifthGrade01: React.FC = () => {
       <div className="quizAll">
         <div className="quiz1">
           <div className="quizCard1">
-            <p className="quizNumber">①</p>
+            <p className="quizNumberTop">①</p>
             <div className="margin5px">
               <div>
                 25 + 43 - 19 =
@@ -19,18 +19,18 @@ const FifthGrade01: React.FC = () => {
             </div>
           </div>
           <div className="quizCard2">
-            <p className="quizNumber">②</p>
+            <p className="quizNumberTop">②</p>
             <div className="margin5px">
               <div>
                 31 - 16 + 23 = <input className="inputSize1" type="text" /> + 23
-                <div className="textRight">
+                <div className="textRight111">
                   = <input className="inputSize1" type="text" />
                 </div>
               </div>
             </div>
           </div>
           <div className="quizCard3">
-            <p className="quizNumber">③</p>
+            <p className="quizNumberTop">③</p>
             <div className="margin5px">
               <div>
                 19 - 13 + 7 = <input className="inputSize1" type="text" /> + 7
@@ -41,65 +41,65 @@ const FifthGrade01: React.FC = () => {
             </div>
           </div>
           <div className="quizCard1">
-            <p className="quizNumber">④</p>
+            <p className="quizNumberTop">④</p>
             <div className="margin5px">
               <div>
                 16 + 23 - 9 = <input className="inputSize1" type="text" /> - 9
-                <div className="textRight">
+                <div className="textRight1112">
                   = <input className="inputSize1" type="text" />
                 </div>
               </div>
             </div>
           </div>
           <div className="quizCard2">
-            <p className="quizNumber">⑤</p>
+            <p className="quizNumberTop">⑤</p>
             <div className="absolSetting">
               <div className="elementAbsol1">35 - 27 + 9 - 14</div>
               <div className="elementAbsol2">
                 <input className="inputSize1" type="text" /> + 9 - 14 ={' '}
                 <input className="inputSize1" type="text" /> - 14
-              </div>
-              <div className="elementAbsol3">
-                = <input className="inputSize1" type="text" />
+                <div className="elementAbsol3">
+                  = <input className="inputSize1" type="text" />
+                </div>
               </div>
             </div>
           </div>
           <div className="quizCard3">
-            <p className="quizNumber">⑥</p>
+            <p className="quizNumberTop">⑥</p>
             <div className="absolSetting">
               <div className="elementAbsol1">28 + 15 - 17 - 20</div>
               <div className="elementAbsol2">
                 <input className="inputSize1" type="text" /> - 17 - 20 ={' '}
                 <input className="inputSize1" type="text" /> - 20
-              </div>
-              <div className="elementAbsol3">
-                = <input className="inputSize1" type="text" />
+                <div className="elementAbsol3">
+                  = <input className="inputSize1" type="text" />
+                </div>
               </div>
             </div>
           </div>
           <div className="quizCard1">
-            <p className="quizNumber">⑦</p>
+            <p className="quizNumberTop">⑦</p>
             <div className="absolSetting">
               <div className="elementAbsol1">15 + 4 - 16 + 11</div>
               <div className="elementAbsol6">
                 <input className="inputSize1" type="text" /> - 16 + 11 ={' '}
                 <input className="inputSize1" type="text" /> + 11
-              </div>
-              <div className="elementAbsol4">
-                = <input className="inputSize1" type="text" />
+                <div className="elementAbsol4">
+                  = <input className="inputSize1" type="text" />
+                </div>
               </div>
             </div>
           </div>
           <div className="quizCard2">
-            <p className="quizNumber">⑧</p>
+            <p className="quizNumberTop">⑧</p>
             <div className="absolSetting">
               <div className="elementAbsol1">35 + 8 - 26 + 9</div>
               <div className="elementAbsol2">
                 <input className="inputSize1" type="text" /> - 26 + 9 ={' '}
                 <input className="inputSize1" type="text" /> + 9
-              </div>
-              <div className="elementAbsol5">
-                = <input className="inputSize1" type="text" />
+                <div className="elementAbsol5">
+                  = <input className="inputSize1" type="text" />
+                </div>
               </div>
             </div>
           </div>

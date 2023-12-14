@@ -7,89 +7,88 @@ const FifthGrade06: React.FC = () => {
       <div className="quizAll">
         <div className="quiz1">
           <div className="quizCard11">
-            <p className="quizNumber">①</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">①</p>
               46 - (12 + 19) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">②</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">②</p>
               88 - (52 - 13) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">③</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">③</p>
               29 + (22 - 19) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">④</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">④</p>
               37 + (16 + 25) = <input className="inputSize1" type="text" />
             </div>
           </div>
 
           <div className="quizCard11">
-            <p className="quizNumber">⑤</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑤</p>
               74 - (26 + 15) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑥</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑥</p>
               46 - (17 - 16) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑦</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑦</p>
               55 - (17 + 24) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑧</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑧</p>
               16 + (41 - 35) = <input className="inputSize1" type="text" />
             </div>
           </div>
 
           <div className="quizCard11">
-            <p className="quizNumber">⑨</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑨</p>
               60 - (27 - 26) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑩</p>
-            <div className="marginTop18">
-              31 + (27 - 25)
-              <input className="inputSize1" type="text" />
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑩</p>
+              31 + (27 - 25) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑪</p>
-            <div className="marginTop18">
-              59 - (6 + 25) <input className="inputSize1" type="text" />
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑪</p>
+              59 - (6 + 25) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑫</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑫</p>
               17 - (25 - 9) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑬</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑬</p>
               38 - (5 + 17) = <input className="inputSize1" type="text" />
             </div>
           </div>
           <div className="quizCard11">
-            <p className="quizNumber">⑭</p>
-            <div className="marginTop18">
+            <div className="marginTop18 flexRow">
+              <p className="quizNumber1231">⑭</p>
               24 + (17 - 8) = <input className="inputSize1" type="text" />
             </div>
           </div>
