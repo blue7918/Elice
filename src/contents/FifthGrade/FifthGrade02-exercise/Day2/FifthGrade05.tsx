@@ -5,156 +5,171 @@ const FifthGrade05: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
       <div className="quizAll">
-        <div className="quiz">
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">①</p>
-            <div className="fifthQuiz212">
-              <p>51의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+        <div className="quiz1 quizMargin3 fontSize25">
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">51</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">2</div>
+              <div className="quiz2131">3</div>
+              <div className="quiz2131">4</div>
+              <div className="quiz2131">17</div>
+              <div className="quiz2131">51</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">②</p>
-            <div className="fifthQuiz212">
-              <p>56의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">56</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">2</div>
+              <div className="quiz2131">4</div>
+              <div className="quiz2131">7</div>
+              <div className="quiz2131">8</div>
+              <div className="quiz2131">14</div>
+              <div className="quiz2131">28</div>
+              <div className="quiz2131">56</div>
+              <div className="quiz2131">112</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">③</p>
-            <div className="fifthQuiz212">
-              <p>61의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">61</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">2</div>
+              <div className="quiz2131">3</div>
+              <div className="quiz2131">7</div>
+              <div className="quiz2131">21</div>
+              <div className="quiz2131">61</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">④</p>
-            <div className="fifthQuiz212">
-              <p>65의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">65</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">5</div>
+              <div className="quiz2131">7</div>
+              <div className="quiz2131">9</div>
+              <div className="quiz2131">13</div>
+              <div className="quiz2131">65</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑤</p>
-            <div className="fifthQuiz212">
-              <p>49의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">77</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">6</div>
+              <div className="quiz2131">7</div>
+              <div className="quiz2131">11</div>
+              <div className="quiz2131">55</div>
+              <div className="quiz2131">77</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑤</p>
-            <div className="fifthQuiz212">
-              <p>77의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">79</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">4</div>
+              <div className="quiz2131">7</div>
+              <div className="quiz2131">11</div>
+              <div className="quiz2131">61</div>
+              <div className="quiz2131">79</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑥</p>
-            <div className="fifthQuiz212">
-              <p>79의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">81</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">3</div>
+              <div className="quiz2131">9</div>
+              <div className="quiz2131">27</div>
+              <div className="quiz2131">67</div>
+              <div className="quiz2131">81</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑦</p>
-            <div className="fifthQuiz212">
-              <p>81의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">89</span>
             </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">2</div>
+              <div className="quiz2131">6</div>
+              <div className="quiz2131">13</div>
+              <div className="quiz2131">63</div>
+              <div className="quiz2131">89</div>
+            </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑧</p>
-            <div className="fifthQuiz212">
-              <p>89의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+          <div className="flexCol marginbottom666">
+            <div className="quiz2131 add2131">
+              <span className="posiAbAb">91</span>
             </div>
-          </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑨</p>
-            <div className="fifthQuiz212">
-              <p>91의 약수 →</p>
-              <div>
-                <input
-                  className="fifthQuiz221Input"
-                  type="text"
-                  placeholder=""
-                />
-                (
-                <input className="averageInput" type="text" placeholder="" />)
-              </div>
+            <div className="flexRow marginTop213">
+              <div className="quiz2131">1</div>
+              <div className="quiz2131">7</div>
+              <div className="quiz2131">8</div>
+              <div className="quiz2131">13</div>
+              <div className="quiz2131">29</div>
+              <div className="quiz2131">91</div>
             </div>
+            <input
+              className="fifthQuiz213Input marginbottom666"
+              type="text"
+              placeholder=""
+            />
           </div>
         </div>
       </div>

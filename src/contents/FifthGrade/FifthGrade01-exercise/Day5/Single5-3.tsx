@@ -3,7 +3,7 @@ import Styled from '../../style';
 import type { Data53QuizProps as QuizProps } from '../../Type/Type1';
 
 const Single53 = (props: QuizProps) => {
-  const { id, quiz1 } = props;
+  const { id, quiz1, typing } = props;
   return (
     <Styled.RowBox2>
       <div>{id}</div>
@@ -17,6 +17,7 @@ const Single53 = (props: QuizProps) => {
           <div className="boxCenter">
             답:
             <input className="answerBox" type="text" />
+            <div>{typing}</div>
           </div>
         </div>
       </Styled.TextBoxWrapper>

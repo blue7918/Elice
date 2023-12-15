@@ -459,7 +459,10 @@ const Styled = {
     .answerBox {
       margin: 0px 10px 0;
       height: 30px;
-      font-size: 15px;
+      font-size: 18px;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
     }
   `,
   TextBox: styled.div`
@@ -739,7 +742,14 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
-
+    .quiz2111 {
+      position: relative;
+      display: grid;
+      grid-template-columns: 52% 52%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
     .quiz2 {
       position: relative;
       display: grid;
@@ -857,6 +867,45 @@ const Styled = {
         margin-top: 5px;
       }
     }
+    .quizCard211 {
+      width: 370px;
+      height: 180px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      background-color: #e9e9e9;
+      white-space: nowrap;
+      margin-left: 20px;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
+    .quizCard223 {
+      min-width: 500px;
+      width: 99%;
+      height: 180px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      background-color: #e9e9e9;
+      white-space: nowrap;
+      margin-left: 20px;
+      .margin5px {
+        margin-top: 5px;
+      }
+    }
     .quizCard1331 {
       width: 85%;
       height: 140px;
@@ -873,6 +922,10 @@ const Styled = {
       .margin5px {
         margin-top: 5px;
       }
+    }
+    .marginbottom666 {
+      margin-top: 20px;
+      margin-bottom: 30px;
     }
     .marginbottom0 {
       margin-bottom: 0px;
@@ -1007,6 +1060,9 @@ const Styled = {
       left: 0%;
       top: 0%;
     }
+    .quizNumber1433 {
+      font-size: 25px;
+    }
     .quizNumber1227 {
       position: absolute;
       font-size: 25px;
@@ -1017,6 +1073,12 @@ const Styled = {
       position: absolute;
       left: -10%;
       top: -10%;
+    }
+    .quizNumber1226 {
+      margin: 0;
+      margin-left: -46px;
+      margin-right: 24px;
+      margin-top: -8px;
     }
     .quizNumber1231 {
       margin-right: 40px;
@@ -1076,6 +1138,9 @@ const Styled = {
     .marginTop18 {
       margin-top: 24px;
       margin-left: 10px;
+    }
+    .marginTop213 {
+      margin-top: 24px;
     }
     .marginLeftZero {
       margin-left: -17px;
@@ -1522,9 +1587,15 @@ const Styled = {
     .quizMargin2 {
       margin-bottom: 120px;
     }
-
+    .quizMargin1422 {
+      margin-bottom: 10px;
+    }
     .quizMargin3 {
       grid-column-gap: 80px;
+    }
+    .fontSize25 {
+      font-size: 25px;
+      font-weight: 600;
     }
     .imgInputSet input {
       position: absolute;
@@ -1583,7 +1654,14 @@ const Styled = {
     }
 
     .quiz211 {
-      width: 95%;
+      width: 80%;
+      margin-left: 10%;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .flexRow {
@@ -1782,6 +1860,9 @@ const Styled = {
       left: 157%;
       top: 43%;
     }
+    .marginleft2231 {
+      margin-right: 20px;
+    }
     .marginwtwtt11 {
       margin-top: 10px;
       margin-left: 136px;
@@ -1793,6 +1874,78 @@ const Styled = {
     .marginwtwtt13 {
       margin-top: 10px;
       margin-left: 142px;
+    }
+    .fif221221 {
+      width: 350px;
+      justify-content: space-around;
+      margin-left: 15px;
+    }
+    .textleft1231 {
+      text-align: start;
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    .description p {
+      margin: 0;
+      padding: 10px 0;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    .division-examples {
+      width: 500px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 8px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .example {
+      width: 33%;
+      white-space: nowrap;
+      text-align: left;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .conclusion {
+      padding: 10px 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .quiz2131 {
+      background-color: #e2e2e2;
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      margin: 5px;
+      border-radius: 10px;
+    }
+    .add2131 {
+      line-height: 60px;
+      width: 60px;
+      height: 60px;
+      border-radius: 0px;
+      background-color: rgba(0, 255, 255, 0.2);
+      border: 1px solid #d0e0ff;
+      transform: rotate(45deg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .posiAbAb {
+      transform: rotate(-45deg);
+      display: block;
+      font-size: 25px;
+      font-weight: bold;
     }
   `,
 };

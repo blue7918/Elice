@@ -14,7 +14,12 @@ const FifthGrade53Exercise = () => {
       <Styled.PaddingBox>
         <Styled.ColGapBox gap={2.4}>
           {QuizData.map((item: QuizProps, idx) => (
-            <SingleQuiz key={idx} id={item.id} quiz1={item.quiz1} />
+            <SingleQuiz
+              key={idx}
+              id={item.id}
+              quiz1={item.quiz1}
+              typing={item.typing}
+            />
           ))}
         </Styled.ColGapBox>
       </Styled.PaddingBox>

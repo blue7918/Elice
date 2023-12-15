@@ -119,8 +119,7 @@ export const FifthGrade2Day13 = {
 
 export const FifthGrade2Day21 = {
   title: '약수가 2개인 수',
-  subTitle:
-    '주어진 수의 약수를 모두 구하고 약수가 2개뿐인 수는 ○표, 아닌 것에는 X표 하세요',
+  subTitle: '약수의 개수를 빈칸에 써넣으세요.',
 };
 
 export const FifthGrade2Day22 = {

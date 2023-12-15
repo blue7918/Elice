@@ -5,142 +5,172 @@ const FifthGrade02: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
       <div className="quizAll">
-        <div className="quiz">
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">①</p>
-            <div className="fifthQuiz212">
-              <p>8의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" placeholder="1" />
-                ×
-                <input className="averageInput" type="text" placeholder="8" />
+        <div className="quiz2111">
+          <div className="quizCard211 flexCol">
+            <div className="flexRow fif221221">
+              <p className="quizNumber1226">①</p>
+              <div className="textleft1231">
+                8 ÷ <input className="averageInput" type="text" /> = 8
               </div>
-              <div>
-                <input className="averageInput" type="text" placeholder="2" />
-                ×
-                <input className="averageInput" type="text" placeholder="4" />
+              <div className="textleft1231">
+                8 ÷ <input className="averageInput" type="text" /> = 4
+              </div>
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                8 ÷ <input className="averageInput" type="text" /> = 2
+              </div>
+              <div className="textleft1231">
+                8 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">②</p>
-            <div className="fifthQuiz212">
-              <p>6의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">②</p>
+              <div className="textleft1231">
+                6 ÷ <input className="averageInput" type="text" /> = 6
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                6 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+            </div>
+            <div className="  flexRow fif221221">
+              <div className="textleft1231">
+                6 ÷ <input className="averageInput" type="text" /> = 2
+              </div>
+              <div className="textleft1231">
+                6 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">③</p>
-            <div className="fifthQuiz212">
-              <p>9의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">③</p>
+              <div className="textleft1231">
+                9 ÷ <input className="averageInput" type="text" /> = 9
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                9 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+            </div>
+            <div className=" flexRow fif221221">
+              <div className="textleft1231">
+                9 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+              <div className="textleft1231">
+                9 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">④</p>
-            <div className="fifthQuiz212">
-              <p>12의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">④</p>
+              <div className="textleft1231">
+                12 ÷ <input className="averageInput" type="text" /> = 12
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                12 ÷ <input className="averageInput" type="text" /> = 6
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                12 ÷ <input className="averageInput" type="text" /> = 4
+              </div>
+              <div className="textleft1231">
+                12 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                12 ÷ <input className="averageInput" type="text" /> = 2
+              </div>
+              <div className="textleft1231">
+                12 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑤</p>
-            <div className="fifthQuiz212">
-              <p>15의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">⑤</p>
+              <div className="textleft1231">
+                15 ÷ <input className="averageInput" type="text" /> = 15
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                15 ÷ <input className="averageInput" type="text" /> = 5
+              </div>
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                15 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+              <div className="textleft1231">
+                15 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑥</p>
-            <div className="fifthQuiz212">
-              <p>18의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">⑥</p>
+              <div className="textleft1231">
+                18 ÷ <input className="averageInput" type="text" /> = 18
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                18 ÷ <input className="averageInput" type="text" /> = 9
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                18 ÷ <input className="averageInput" type="text" /> = 6
+              </div>
+              <div className="textleft1231">
+                18 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                18 ÷ <input className="averageInput" type="text" /> = 2
+              </div>
+              <div className="textleft1231">
+                18 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑦</p>
-            <div className="fifthQuiz212">
-              <p>21의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">⑦</p>
+              <div className="textleft1231">
+                21 ÷ <input className="averageInput" type="text" /> = 21
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                21 ÷ <input className="averageInput" type="text" /> = 7
+              </div>
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                21 ÷ <input className="averageInput" type="text" /> = 3
+              </div>
+              <div className="textleft1231">
+                21 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>
-          <div className="quizCard1 flexCol">
-            <p className="quizNumber">⑧</p>
-            <div className="fifthQuiz212">
-              <p>25의 약수 → </p>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+          <div className="quizCard211 flexCol">
+            <div className=" flexRow fif221221">
+              <p className="quizNumber1226">⑧</p>
+              <div className="textleft1231">
+                25 ÷ <input className="averageInput" type="text" /> = 25
               </div>
-              <div>
-                <input className="averageInput" type="text" />
-                ×
-                <input className="averageInput" type="text" />
+              <div className="textleft1231">
+                25 ÷ <input className="averageInput" type="text" /> = 5
+              </div>
+            </div>
+            <div className="flexRow fif221221">
+              <div className="textleft1231">
+                25 ÷ <input className="averageInput" type="text" /> = 5
+              </div>
+              <div className="textleft1231">
+                25 ÷ <input className="averageInput" type="text" /> = 1
               </div>
             </div>
           </div>

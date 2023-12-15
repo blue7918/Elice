@@ -24,4 +24,5 @@ export interface Data42QuizProps {
 export interface Data53QuizProps {
   id: string;
   quiz1: string;
+  typing?: string;
 }

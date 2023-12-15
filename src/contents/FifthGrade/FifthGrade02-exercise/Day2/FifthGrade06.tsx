@@ -6,8 +6,8 @@ const FifthGrade06: React.FC = () => {
     <Styled.OneToNine className="sectionSize">
       <div className="quizAll">
         <div className="quiz">
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">①</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">①</p>
             <div className="fifthGrade223Grid">
               <div>12</div>
               <div>28</div>
@@ -20,8 +20,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">②</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">②</p>
             <div className="fifthGrade223Grid">
               <div>6</div>
               <div>23</div>
@@ -34,8 +34,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">③</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">③</p>
             <div className="fifthGrade223Grid">
               <div>50</div>
               <div>53</div>
@@ -48,8 +48,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">④</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">④</p>
             <div className="fifthGrade223Grid">
               <div>35</div>
               <div>29</div>
@@ -62,8 +62,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">⑤</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">⑤</p>
             <div className="fifthGrade223Grid">
               <div>71</div>
               <div>25</div>
@@ -76,8 +76,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">⑥</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">⑥</p>
             <div className="fifthGrade223Grid">
               <div>13</div>
               <div>30</div>
@@ -90,8 +90,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">⑦</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">⑦</p>
             <div className="fifthGrade223Grid">
               <div>26</div>
               <div>89</div>
@@ -104,8 +104,8 @@ const FifthGrade06: React.FC = () => {
             </div>
             <input className="fifthGrade223Input" type="text" />개
           </div>
-          <div className="quizCard1 flexRow">
-            <p className="quizNumber">⑧</p>
+          <div className="quizCard223 flexRow">
+            <p className="quizNumber1433 marginleft2231">⑧</p>
             <div className="fifthGrade223Grid">
               <div>52</div>
               <div>43</div>
