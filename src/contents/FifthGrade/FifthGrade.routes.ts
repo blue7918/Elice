@@ -123,4 +123,52 @@ export default createEliceExtRoutes([
     path: 'quiz2-5-3',
     component: import('./FifthGrade02-exercise/Day5/FifthGrade1-3'),
   },
+  {
+    path: 'quiz3-1-1',
+    component: import('./FifthGrade03-exercise/Day1/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz3-1-2',
+    component: import('./FifthGrade03-exercise/Day1/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz3-1-3',
+    component: import('./FifthGrade03-exercise/Day1/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz3-2-1',
+    component: import('./FifthGrade03-exercise/Day2/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz3-2-2',
+    component: import('./FifthGrade03-exercise/Day2/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz3-2-3',
+    component: import('./FifthGrade03-exercise/Day2/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz3-3-1',
+    component: import('./FifthGrade03-exercise/Day3/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz3-3-2',
+    component: import('./FifthGrade03-exercise/Day3/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz3-3-3',
+    component: import('./FifthGrade03-exercise/Day3/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz3-4-1',
+    component: import('./FifthGrade03-exercise/Day4/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz3-4-2',
+    component: import('./FifthGrade03-exercise/Day4/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz3-4-3',
+    component: import('./FifthGrade03-exercise/Day4/FifthGrade1-3'),
+  },
 ]);

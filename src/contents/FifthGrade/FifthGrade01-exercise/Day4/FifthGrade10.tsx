@@ -8,7 +8,7 @@ const FifthGrade10: React.FC = () => {
         <div className="imgfake"></div>
         <img
           className="img141"
-          src={`${process.env.PUBLIC_URL}/1-4-1.png`}
+          src={`${process.env.PUBLIC_URL}/fifthImage/1-4-1.png`}
           alt=""
         />
         <div className="imgInputSet">

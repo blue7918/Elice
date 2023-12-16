@@ -455,7 +455,9 @@ const Styled = {
       display: flex;
       align-items: center;
     }
-
+    .alignCenter {
+      align-items: center;
+    }
     .answerBox {
       margin: 0px 10px 0;
       height: 30px;
@@ -655,6 +657,7 @@ const Styled = {
     .quiz {
       position: relative;
       display: grid;
+      min-width: 770px;
       grid-template-columns: 70%;
       align-content: center;
       justify-content: center;
@@ -667,11 +670,13 @@ const Styled = {
       align-content: center;
       justify-content: center;
       margin-top: 50px;
+      min-width: 770px;
     }
     .quiz332 {
       position: relative;
       display: grid;
       grid-template-columns: 60%;
+      min-width: 770px;
       align-content: center;
       justify-content: center;
       margin-top: 50px;
@@ -727,6 +732,7 @@ const Styled = {
       position: relative;
     }
     .quiz1 {
+      min-width: 500px;
       position: relative;
       display: grid;
       grid-template-columns: 50% 50%;
@@ -734,18 +740,82 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
+    .quiz31231 {
+      min-width: 500px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-content: center;
+      justify-content: start;
+      margin-top: 50px;
+    }
+    .textCenter {
+      text-align: center;
+    }
+    .quizRow3case {
+      min-width: 500px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-column-gap: 20px;
+      align-content: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .number3111 {
+      margin: -18% 20px 0 0;
+    }
+    .number3112 {
+      margin: -10% 20px 0 0;
+    }
+    .box311all {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 32% 32% 32%;
+      grid-column-gap: 20px;
+      align-content: center;
+      justify-content: center;
+      border-radius: 15px;
+      border: 1px solid #e9e9e9;
+      padding-right: 30px;
+      margin-bottom: 30px;
+    }
+    .box31145 {
+      padding-right: 10px;
+      height: 380px;
+    }
     .quiz1211 {
       position: relative;
       display: grid;
       grid-template-columns: 70% 70%;
       align-content: center;
       justify-content: center;
+      min-width: 770px;
       margin-top: 50px;
     }
     .quiz2111 {
+      min-width: 770px;
       position: relative;
       display: grid;
       grid-template-columns: 52% 52%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .quiz3111 {
+      min-width: 770px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 80%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .quiz3112 {
+      min-width: 770px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 40% 39.9%;
       align-items: center;
       justify-content: center;
       margin-top: 50px;
@@ -757,6 +827,7 @@ const Styled = {
       align-content: center;
       justify-content: center;
       margin-top: 50px;
+      min-width: 770px;
     }
     .quiz3 {
       position: relative;
@@ -765,6 +836,7 @@ const Styled = {
       align-content: center;
       justify-content: center;
       margin-top: 50px;
+      min-width: 770px;
     }
     .quiz333 {
       position: relative;
@@ -773,10 +845,16 @@ const Styled = {
       align-content: center;
       justify-content: center;
       margin-top: 50px;
+      min-width: 770px;
     }
     .quizAll {
       margin-top: 30px;
       width: 100%;
+    }
+    .asdfasdf242 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .quizAllLate {
       position: relative;
@@ -1025,6 +1103,29 @@ const Styled = {
       background-color: #d0e0ff;
       white-space: nowrap;
     }
+    .quiz241Ex {
+      width: 80%;
+      border: 1px solid #e2e2e2;
+      padding: 7%;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .noWrap1 {
+      white-space: nowrap;
+    }
+    .margin2410 {
+      color: red;
+      margin: 20px 0 20px 15px;
+    }
+    .quizNumber123522 {
+      margin-right: 100px;
+    }
+    .elemet2411 p {
+      margin: 2px 0px;
+    }
     .quizCard6 {
       width: 92%;
       height: 120px;
@@ -1082,9 +1183,13 @@ const Styled = {
     }
     .quizNumber1231 {
       margin-right: 40px;
+      font-size: 22px;
     }
     .quizNumber1235 {
       margin-right: 10px;
+    }
+    .quizNumber123887 {
+      margin-top: 80px;
     }
     .quizNumberTop {
       position: absolute;
@@ -1104,7 +1209,26 @@ const Styled = {
       margin-left: 33%;
       text-align: center;
     }
-
+    .textAlignRight {
+      justify-content: end;
+    }
+    .fif251numb {
+      padding: 10px 30px;
+      background-color: rgba(0, 255, 255, 0.3);
+      border-radius: 10px;
+    }
+    .fif253numb {
+      margin-left: 20px;
+      border-right: 1px solid black;
+    }
+    .fif253numb div {
+      width: 55px;
+      height: 55px;
+      border: 1px solid black;
+      line-height: 50px;
+      text-align: center;
+      border-right: none;
+    }
     .textRight111 {
       margin-top: 3%;
       margin-left: 30%;
@@ -1139,8 +1263,19 @@ const Styled = {
       margin-top: 24px;
       margin-left: 10px;
     }
+    .Red233 {
+      margin-top: -10px;
+      color: red;
+      margin-left: 20px;
+    }
     .marginTop213 {
       margin-top: 24px;
+    }
+    .marginTop231 {
+      margin-top: 35px;
+    }
+    .marginleft2421 {
+      margin-left: 25px;
     }
     .marginLeftZero {
       margin-left: -17px;
@@ -1149,9 +1284,23 @@ const Styled = {
       margin-top: 10px;
       margin-left: 170px;
     }
+    .marginRight231 {
+      margin-right: 20px;
+    }
+    .borderColor233 {
+      width: 72px;
+      height: 42px;
+      border: 1px solid #e2e2e2;
+      border-radius: 10px;
+      font-size: 25px;
+      text-align: center;
+    }
     .marginwtwtt {
       margin-top: 10px;
       margin-left: 151px;
+    }
+    .margintop2512 {
+      margin-top: 10px;
     }
     .twoQuiz {
       display: flex;
@@ -1537,7 +1686,9 @@ const Styled = {
       outline: none;
       padding-left: 3px;
     }
-
+    .margintopbotom5px {
+      padding: 0px 10px;
+    }
     .borderRedInput1211 {
       font-size: 10px;
       width: 42px;
@@ -1590,11 +1741,18 @@ const Styled = {
     .quizMargin1422 {
       margin-bottom: 10px;
     }
+    .quizMargin1922 {
+      margin-bottom: 70px;
+    }
     .quizMargin3 {
       grid-column-gap: 80px;
     }
     .fontSize25 {
       font-size: 25px;
+      font-weight: 600;
+    }
+    .fontSize20 {
+      font-size: 20px;
       font-weight: 600;
     }
     .imgInputSet input {
@@ -1652,7 +1810,13 @@ const Styled = {
     .marginBottom18 {
       margin-bottom: 18px;
     }
-
+    .number3113 {
+      margin: -80% 10px 0;
+    }
+    .imgSize3115 {
+      width: 60%;
+      padding: 15px;
+    }
     .quiz211 {
       width: 80%;
       margin-left: 10%;
@@ -1684,6 +1848,46 @@ const Styled = {
       text-align: center;
       outline: none;
     }
+    .divlineCSS {
+      width: 42px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS1 {
+      width: 22px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS2 {
+      width: 64px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS15 {
+      width: 42px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS4 {
+      width: 80px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS5 {
+      width: 35px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .imgSize3111 {
+      width: 80%;
+      padding: 15px;
+    }
     .fifthQuiz212 {
       display: flex;
       flex-direction: row;
@@ -1694,9 +1898,21 @@ const Styled = {
       margin: 0px 8px;
       white-space: nowrap;
     }
+    .justifyCenter {
+      justify-content: center;
+      align-items: center;
+    }
+    .justAlignCenter {
+      margin: 10px 0px 0px 17px;
+      text-align: center;
+    }
     .fifthQuiz212 p {
       margin: 0px 5px;
       white-space: nowrap;
+    }
+    .allowRight {
+      margin-left: 5px;
+      width: 2vw;
     }
     .fifthQuiz213Input {
       width: 102px;
@@ -1704,6 +1920,15 @@ const Styled = {
       font-size: 22px;
       border-radius: 5px;
       border: 1px solid gray;
+      text-align: center;
+      outline: none;
+    }
+    .fifthQuiz231Input {
+      width: 4vw;
+      height: 42px;
+      font-size: 22px;
+      border-radius: 5px;
+      border: 1px solid #e2e2e2;
       text-align: center;
       outline: none;
     }
@@ -1867,6 +2092,12 @@ const Styled = {
       margin-top: 10px;
       margin-left: 136px;
     }
+    .marginwerq2452 {
+      margin-left: 106px;
+    }
+    .marginLeft3121 {
+      margin-left: 56px;
+    }
     .marginwtwtt12 {
       margin-top: 10px;
       margin-left: 161px;
@@ -1894,7 +2125,7 @@ const Styled = {
       font-weight: bold;
     }
     .division-examples {
-      width: 500px;
+      width: 70%;
       background-color: #f7f7f7;
       border: 1px solid #ddd;
       padding: 10px;
@@ -1946,6 +2177,29 @@ const Styled = {
       display: block;
       font-size: 25px;
       font-weight: bold;
+    }
+    .fontSize17 {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .exampleBox312 {
+      min-width: 550px;
+      margin-left: 10%;
+      padding: 15px;
+      margin-top: 100px;
+      width: 80%;
+      border: 1px solid #e2e2e2;
+      border-radius: 15px;
+    }
+    .paddingExp {
+      padding: 15px;
+    }
+    .marginbottomtic {
+      margin-bottom: 8px;
+    }
+    .colorRedOnly {
+      color: red;
+      margin-left: 10px;
     }
   `,
 };

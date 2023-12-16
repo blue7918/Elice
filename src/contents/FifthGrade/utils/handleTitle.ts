@@ -126,7 +126,55 @@ export const FifthGrade2Day22 = {
   title: '약수가 2개인 수',
   subTitle: '빈칸에 약수가 2개뿐인 수가 몇 개인지 써넣으세요.',
 };
-
+export const FifthGrade2Day31 = {
+  title: '배수',
+  subTitle: '주어진 수의 배수를 가장 작은 수부터 차례로 5개 쓰세요.',
+};
+export const FifthGrade2Day32 = {
+  title: '배수',
+  subTitle: '큰 마름모 수의 배수인 것을 모두 쓰세요',
+};
+export const FifthGrade2Day33 = {
+  title: '배수',
+  subTitle: '빈칸에 조건을 만족하는 배수를 써넣으세요.',
+};
+export const FifthGrade2Day41 = {
+  title: '배수의 개수',
+  subTitle: '빈칸에 조건을 만족하는 배수를 써넣으세요.',
+};
+export const FifthGrade2Day42 = {
+  title: '배수의 개수',
+  subTitle: '범위에 있는 배수의 개수가 몇 개인지 뺄셈식으로 구하세요.',
+};
+export const FifthGrade2Day43 = {
+  title: '배수의 개수',
+  subTitle: '범위 안의 ★ 이 될 수 있는 배수의 개수가 몇 개인지 구하세요',
+};
+export const FifthGrade2Day51 = {
+  title: '약수와 배수의 관계',
+  subTitle: '빈칸 안에 약수와 배수를 알맞게 써넣으세요',
+};
+export const FifthGrade2Day52 = {
+  title: '약수와 배수의 관계',
+  subTitle: '빈칸 안에 약수와 배수를 알맞게 써넣으세요.',
+};
+export const FifthGrade2Day53 = {
+  title: '약수와 배수의 관계',
+  subTitle: '세 수 중에서 약수와 배수의 관계인 두 수를 찾으세요.',
+};
+export const FifthGrade3Day11 = {
+  title: '크기가 같은 분수 ',
+  subTitle:
+    '전체에서 색칠된 부분을 분수로 나타낸 것입니다. 빈칸에 알맞은 수를 써넣으세요.',
+};
+export const FifthGrade3Day12 = {
+  title: '크기가 같은 분수 ',
+  subTitle: '빈칸에 알맞은 수를 써넣으세요.',
+};
+export const FifthGrade3Day13 = {
+  title: '크기가 같은 분수 ',
+  subTitle: '빈칸에 알맞은 수를 써넣으세요.',
+};
 export const SubBlank = '빈칸에 알맞은 수를 써넣으세요.';
 export const SubJustCal = '계산을 하세요.';
 export const SubJustCalBelow = '다음과 같은 방법으로 계산을 하세요.';

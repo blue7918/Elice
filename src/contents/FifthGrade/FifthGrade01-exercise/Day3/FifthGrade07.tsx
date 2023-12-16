@@ -21,7 +21,7 @@ const FifthGrade07: React.FC = () => {
                   <div className="marginLeft8">18</div>
                   <img
                     className="img1211"
-                    src={`${process.env.PUBLIC_URL}/1-2-1_1.png`}
+                    src={`${process.env.PUBLIC_URL}/fifthImage/1-2-1_1.png`}
                     alt=""
                   />
                 </div>
@@ -33,7 +33,7 @@ const FifthGrade07: React.FC = () => {
                   <div className="marginLeft11">6</div>
                   <img
                     className="img1212 imgleft1311"
-                    src={`${process.env.PUBLIC_URL}/1-2-1_2.png`}
+                    src={`${process.env.PUBLIC_URL}/fifthImage/1-2-1_2.png`}
                     alt=""
                   />
                 </div>
