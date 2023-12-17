@@ -749,8 +749,47 @@ const Styled = {
       justify-content: start;
       margin-top: 50px;
     }
+    .quiz33131 {
+      min-width: 700px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-content: center;
+      justify-content: start;
+      margin-top: 50px;
+    }
+    .quiz32131 {
+      width: 80%;
+      min-width: 500px;
+      position: relative;
+      align-content: center;
+      justify-content: center;
+      margin-top: 50px;
+      margin-left: 10%;
+    }
+    .borderBalck {
+      padding: 15px 0;
+      border: 1px solid #e9e9e9;
+      border-radius: 15px;
+    }
     .textCenter {
       text-align: center;
+    }
+    .marginZero {
+      margin: 0;
+    }
+    .marginRighttic {
+      margin: 0px 10px;
+    }
+    .marginLeft10px {
+      margin-left: 10px;
+    }
+    .justtispaceArout {
+      justify-content: space-around;
+    }
+    .commaHeight {
+      margin-top: 30px;
+      margin-right: 10px;
     }
     .quizRow3case {
       min-width: 500px;
@@ -926,6 +965,23 @@ const Styled = {
       .margin5px {
         margin-top: 5px;
       }
+    }
+    .justStart322 {
+      width: 85%;
+      height: 140px;
+      padding: 23px;
+      font-size: 25px;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      justify-content: start;
+      margin: 3%;
+      margin-bottom: 8%;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .colorRedOnly322 {
+      color: red;
     }
     .quizCard1 {
       width: 85%;
@@ -1848,6 +1904,15 @@ const Styled = {
       text-align: center;
       outline: none;
     }
+    .averageInput331 {
+      width: 32px;
+      height: 32px;
+      font-size: 20px;
+      border-radius: 4px;
+      border: 1px solid gray;
+      text-align: center;
+      outline: none;
+    }
     .divlineCSS {
       width: 42px;
       height: 0px;
@@ -1883,6 +1948,21 @@ const Styled = {
       height: 0px;
       border: 1px solid black;
       margin: 2px 0px;
+    }
+    .divlineCSS7 {
+      width: 32px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS6 {
+      width: 46px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineRedColor {
+      border: 1px solid red;
     }
     .imgSize3111 {
       width: 80%;
