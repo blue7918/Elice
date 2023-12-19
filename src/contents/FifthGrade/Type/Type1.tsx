@@ -26,3 +26,7 @@ export interface Data53QuizProps {
   quiz1: string;
   typing?: string;
 }
+
+export interface AnswersType {
+  [key: string]: string;
+}
