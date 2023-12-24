@@ -4,278 +4,293 @@ import Styled from '../../style';
 const FifthGrade15: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll">
-        <div className="quizRow3case quizMargin2">
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>4</div>
-                  <div>58</div>
-                  <div>72</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" placeholder="4,72" />
-              </div>
+      <div className="exampleBox312">
+        <div className="fontSize17">
+          두 분수의 크기만 비교할 경우에는 분모의 곱을 공통분모로 통분한다고
+          생각하고, 분자의 크기만 비 교하면 분수의 크기를 쉽게 비교할 수
+          있습니다.
+        </div>
+        <div></div>
+        <div className="flexRow">
+          <div className="flexRow fontSize17 justifyCenter">
+            <div>(</div>
+            <div className="fontSize17 marginlR10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">14</div>
             </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize17 marginRighttic">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">15</div>
+            </div>
+            <div>)</div>
+            <img
+              className="allowRight awemaraalow"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />{' '}
           </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>56</div>
-                  <div>6</div>
-                  <div>78</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
+          <div className="flexRow fontSize17 justifyCenter">
+            <div>(</div>
+            <div className="fontSize17 marginlR10px">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">28</div>
             </div>
+            <input
+              type="text"
+              className="averageInput redeinptueq colrrwrinput"
+              value="<"
+            />
+            <div className="fontSize17 marginRighttic">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">15</div>
+            </div>
+            <div>)</div>
+            <img
+              className="allowRight awemaraalow"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />{' '}
           </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>91</div>
-                  <div>78</div>
-                  <div>7</div>
-                </div>
-              </div>
+          <div className="flexRow fontSize17 justifyCenter">
+            <div>(</div>
 
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
+            <div className="fontSize17 marginlR10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">14</div>
             </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>32</div>
-                  <div>63</div>
-                  <div>9</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
+            <input
+              type="text"
+              className="averageInput redeinptueq colrrwrinput"
+              value="<"
+            />
+            <div className="fontSize17 marginRighttic">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">15</div>
             </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>75</div>
-                  <div>13</div>
-                  <div>65</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>14</div>
-                  <div>114</div>
-                  <div>70</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>114</div>
-                  <div>18</div>
-                  <div>74</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>85</div>
-                  <div>120</div>
-                  <div>15</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>17</div>
-                  <div>61</div>
-                  <div>119</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>95</div>
-                  <div>25</div>
-                  <div>19</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>13</div>
-                  <div>121</div>
-                  <div>11</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>68</div>
-                  <div>24</div>
-                  <div>136</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>63</div>
-                  <div>120</div>
-                  <div>21</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>125</div>
-                  <div>80</div>
-                  <div>25</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>142</div>
-                  <div>22</div>
-                  <div>198</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>130</div>
-                  <div>30</div>
-                  <div>65</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>204</div>
-                  <div>132</div>
-                  <div>34</div>
-                </div>
-              </div>
-
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
-          </div>
-          <div className="quizCard11 quizMargin1922">
-            <div className="marginTop18 flexcol">
-              <div className="flexRow">
-                <div className="fif253numb flexRow">
-                  <div>38</div>
-                  <div>266</div>
-                  <div>192</div>
-                </div>
-              </div>
-              <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" />
-              </div>
-            </div>
+            <div>)</div>
           </div>
         </div>
+      </div>
+      {/* 문제시작  */}
+      <div className="quizRow3case minwidwer900px">
+        <div className="flexRow fontSize17 justifyCenter mairgin-wef">
+          <p className="fontSize20">①</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">7</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">8</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">8</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">9</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">②</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">8</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">7</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">③</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">4</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">11</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">7</div>
+          </div>
+          {/* 이미지때문에 보류  */}
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">④</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">19</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">4</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">37</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑤</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">6</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">47</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">8</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑥</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">8</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">19</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">4</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">9</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑦</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">13</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">6</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑧</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">25</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">75</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑨</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">6</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">31</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">14</div>
+          </div>
+        </div>
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑩</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">8</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">19</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">5</div>
+          </div>
+        </div>{' '}
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑪</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">10</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">31</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">5</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">16</div>
+          </div>
+        </div>{' '}
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑫</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">5</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">11</div>
+          </div>
+        </div>{' '}
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑬</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">19</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS10"></div>
+            <div className="textCenter">6</div>
+          </div>
+        </div>{' '}
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑭</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">81</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">39</div>
+          </div>
+        </div>{' '}
+        <div className="flexRow fontSize17 justifyCenter">
+          <p className="fontSize20">⑮</p>
+          <div className="fontSize17 marginlR10px">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">28</div>
+          </div>
+          <input type="text" className="averageInput redeinptueq" />
+          <div className="fontSize17 marginRighttic">
+            <div className="textCenter">6</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">47</div>
+          </div>
+        </div>{' '}
       </div>
     </Styled.OneToNine>
   );

@@ -4,123 +4,135 @@ import Styled from '../../style';
 const FifthGrade01: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll">
-        <div className="quiz211">
-          <div className="conclusion">
-            <p>
-              <span>
-                어떤 수를 나누어떨어지게 하는 수를 그 수의 약수라고 합니다.
-              </span>
-            </p>
-            <p>6을 1에서 6까지 모든 수로 나누어 봅니다.</p>
-          </div>
-          <div className="division-examples">
-            <div className="example">6 ÷ 1 = 6</div>
-            <div className="example">6 ÷ 2 = 3</div>
-            <div className="example">6 ÷ 3 = 2</div>
-            <div className="example">6 ÷ 4 = 1 ... 2</div>
-            <div className="example">6 ÷ 5 = 1 ... 1</div>
-            <div className="example">6 ÷ 6 = 1</div>
-          </div>
-          <div className="conclusion">
-            <p>6은 1, 2, 3, 6으로 나누어 나누어떨어집니다.</p>
-            <p>1, 2, 3, 6은 약수입니다.</p>
-          </div>
+      <div className="exampleBox312 aewrfawe">
+        <div className="fontSize17">
+          진분수와 가분수의 곱셈은 분자끼리, 분모끼리 곱하여 계산합니다.
+          그림으로 나타내면 아래와 같습니다.
         </div>
-        <div className="quiz2111">
-          <div className="quizCard211 flexCol">
-            <div className=" flexRow fif221221">
-              <p className="quizNumber1226">①</p>
-              <div className="textleft1231">
-                8 ÷ <input className="averageInput" type="text" /> = 8
-              </div>
-              <div className="textleft1231">
-                8 ÷ <input className="averageInput" type="text" /> = 4
-              </div>
+        <div className="flexRowjustifyCenter">
+          <div className="flexRow fontSize17 justifyCenter">
+            <div className="fontSize17 marginlR10px">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">5</div>
             </div>
-            <div className="flexRow fif221221">
-              <div className="textleft1231">
-                8 ÷ <input className="averageInput" type="text" /> = 2
-              </div>
-              <div className="textleft1231">
-                8 ÷ <input className="averageInput" type="text" /> = 1
-              </div>
+            <div>×</div>
+            <div className="fontSize17 marginRighttic">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">3</div>
             </div>
-          </div>
-          <div className="quizCard211 flexCol">
-            <div className=" flexRow fif221221">
-              <p className="quizNumber1226">②</p>
-              <div className="textleft1231">
-                15 ÷ <input className="averageInput" type="text" /> = 15
-              </div>
-              <div className="textleft1231">
-                15 ÷ <input className="averageInput" type="text" /> = 5
-              </div>
+            <div>=</div>
+            <div className="fontSize17 marginlR10px">
+              <div className="textCenter">2 × 2</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">5 × 3</div>
             </div>
-            <div className="  flexRow fif221221">
-              <div className="textleft1231">
-                15 ÷ <input className="averageInput" type="text" /> = 3
-              </div>
-              <div className="textleft1231">
-                15 ÷ <input className="averageInput" type="text" /> = 1
-              </div>
-            </div>
-          </div>
-          <div className="quizCard211 flexCol">
-            <div className=" flexRow fif221221">
-              <p className="quizNumber1226">③</p>
-              <div className="textleft1231">
-                12 ÷ <input className="averageInput" type="text" /> = 12
-              </div>
-              <div className="textleft1231">
-                12 ÷ <input className="averageInput" type="text" /> = 6
-              </div>
-            </div>
-            <div className=" flexRow fif221221">
-              <div className="textleft1231">
-                12 ÷ <input className="averageInput" type="text" /> = 4
-              </div>
-              <div className="textleft1231">
-                12 ÷ <input className="averageInput" type="text" /> = 3
-              </div>
-            </div>
-            <div className="  flexRow fif221221">
-              <div className="textleft1231">
-                12 ÷ <input className="averageInput" type="text" /> = 2
-              </div>
-              <div className="textleft1231">
-                12 ÷ <input className="averageInput" type="text" /> = 1
-              </div>
-            </div>
-          </div>
-          <div className="quizCard211 flexCol">
-            <div className=" flexRow fif221221">
-              <p className="quizNumber1226">④</p>
-              <div className="textleft1231">
-                18 ÷ <input className="averageInput" type="text" /> = 18
-              </div>
-              <div className="textleft1231">
-                18 ÷ <input className="averageInput" type="text" /> = 9
-              </div>
-            </div>
-            <div className="flexRow fif221221">
-              <div className="textleft1231">
-                18 ÷ <input className="averageInput" type="text" /> = 6
-              </div>
-              <div className="textleft1231">
-                18 ÷ <input className="averageInput" type="text" /> = 3
-              </div>
-            </div>
-            <div className="flexRow fif221221">
-              <div className="textleft1231">
-                18 ÷ <input className="averageInput" type="text" /> = 2
-              </div>
-              <div className="textleft1231">
-                18 ÷ <input className="averageInput" type="text" /> = 1
-              </div>
+            <div>=</div>
+            <div className="fontSize17 marginlR10px">
+              <div className="textCenter">4</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">15</div>
             </div>
           </div>
         </div>
+        <div className="justifyCenter">
+          <img
+            className="imgSize3111"
+            src={`${process.env.PUBLIC_URL}/fifthImage/4-1-1.png`}
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="quiz1 fontSize25 margialefeef">
+        <div className="flexCol">
+          <div className="flexRow">
+            <p className="">①&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <div className=" marginlR10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">2</div>
+            </div>
+            <div>×</div>
+            <div className=" marginRighttic">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div>=&nbsp;</div>
+            <div className=" marginRighttic">
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>
+        <div className="flexCol">
+          <div className="flexRow">
+            <p className="">②&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <div className=" marginlR10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div>×</div>
+            <div className=" marginRighttic">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">5</div>
+            </div>
+            <div>=&nbsp;</div>
+            <div className=" marginRighttic">
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>{' '}
+        <div className="flexCol">
+          <div className="flexRow">
+            <p className="">③&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <div className=" marginlR10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">2</div>
+            </div>
+            <div>×</div>
+            <div className=" marginRighttic">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">5</div>
+            </div>
+            <div>=&nbsp;</div>
+            <div className=" marginRighttic">
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>{' '}
+        <div className="flexCol">
+          <div className="flexRow">
+            <p className="">④&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <div className=" marginlR10px">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div>×</div>
+            <div className=" marginRighttic">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS10"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div>=&nbsp;</div>
+            <div className=" marginRighttic">
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>{' '}
       </div>
     </Styled.OneToNine>
   );

@@ -27,10 +27,10 @@ const FifthGrade01: React.FC = () => {
             <p>1, 2, 3, 6은 약수입니다.</p>
           </div>
         </div>
-        <div className="quiz2111">
+        <div className="quiz2111 afwea">
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">①</p>
+              <p className="quizNumber1226 quizNumbToi13">①</p>
               <div className="textleft1231">
                 8 ÷ <input className="averageInput" type="text" /> = 8
               </div>
@@ -49,7 +49,7 @@ const FifthGrade01: React.FC = () => {
           </div>
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">②</p>
+              <p className="quizNumber1226 quizNumbToi13">②</p>
               <div className="textleft1231">
                 15 ÷ <input className="averageInput" type="text" /> = 15
               </div>

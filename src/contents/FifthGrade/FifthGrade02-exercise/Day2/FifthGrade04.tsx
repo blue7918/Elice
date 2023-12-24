@@ -19,9 +19,9 @@ const FifthGrade04: React.FC = () => {
               <div className="quiz2131">16</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
-              placeholder="5"
+              placeholder=""
             />
           </div>
           <div className="flexCol marginbottom666">
@@ -37,7 +37,7 @@ const FifthGrade04: React.FC = () => {
               <div className="quiz2131">34</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -55,7 +55,7 @@ const FifthGrade04: React.FC = () => {
               <div className="quiz2131">42</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -73,7 +73,7 @@ const FifthGrade04: React.FC = () => {
               <div className="quiz2131">29</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -91,7 +91,7 @@ const FifthGrade04: React.FC = () => {
               <div className="quiz2131">66</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -109,7 +109,7 @@ const FifthGrade04: React.FC = () => {
               <div className="quiz2131">49</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />

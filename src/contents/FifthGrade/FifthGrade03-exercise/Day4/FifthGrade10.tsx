@@ -4,173 +4,278 @@ import Styled from '../../style';
 const FifthGrade10: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll asdfasdf242">
-        <div className="quiz241Ex">
-          <div className="flexRow nowrap1">
-            <div className="flexcol nowrap1">
-              <div className="textLLeft fontSize20">
-                40보다 작은 6의 배수 개수
-              </div>
-              <div className="flexRow quizNumber123522">
-                <img
-                  className="allowRight"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <div className="borderColor233 margin2410 quizNumber1235">
-                  6
-                </div>{' '}
-                개
-              </div>
-              <div className="Red233 fontSize25">39÷6=6…3</div>
+      <div className="quizCard11 fontSize25 flexCol gagprajgw">
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">4</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter heiwerlin">8</div>
             </div>
-            <div className="flexcol elemet2411">
-              <p>1부터 39까지의 수에서</p>
-              <p>39를 6으로 나누면 몫이 6이고 나머지가 3이므로</p>
-              <p>6×1에서 6×6까지 모두 6개의 배수가 있습니다.</p>
+          </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">2</div>
             </div>
+            <div className="yosomargin">
+              <div className="textCenter">8</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">16</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">16</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">40</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">30</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">80</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">60</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">120</div>
+            </div>
+          </div>
+          <div>
+            <input type="text" className="averageInput" />
           </div>
         </div>
-        <div className="quiz1">
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">① 50보다 작은 5의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">15</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter heiwerlin">18</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">② 60보다 작은 7의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">5</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">6</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">30</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">48</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">45</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">54</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">50</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">72</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">③ 55보다 작은 9의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div>
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">20</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter heiwerlin">24</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">④ 64보다 작은 8의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">5</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">6</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">6</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">10</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">10</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">12</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">65</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">75</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">100</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">120</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">⑤ 99보다 작은 13의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div>
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">10</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter heiwerlin">15</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">⑥ 98보다 작은 15의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">2</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">20</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">30</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">60</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">90</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">120</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">150</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">⑦ 100보다 작은 18의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div>
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">5</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter heiwerlin">35</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">⑧ 130보다 작은 22의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">5</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">7</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">12</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">70</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">15</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">100</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">20</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">140</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">⑨ 165보다 작은 26의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div>
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">24</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter heiwerlin">80</div>
             </div>
           </div>
-          <div className="quizCard11">
-            <div className="marginTop18 flexcol">
-              <p className="quizNumber1231">⑩ 187보다 작은 31의 배수의 개수</p>
-              <div className="flexRow">
-                <img
-                  className="allowRight marginRight231"
-                  src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-                  alt=""
-                />
-                <input className="borderColor233 quizNumber1235" /> 개
-                <div></div>
-              </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">10</div>
             </div>
+            <div className="yosomargin">
+              <div className="textCenter">12</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">30</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">12</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">40</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">46</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">160</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">124</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">180</div>
+            </div>
+          </div>
+          <div>
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="flexRow">
+          <div className="add2131 sqerqrmairign cororo">
+            <div className="posiAbAb">
+              <div className="textCenter heieeiei341">25</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter heiwerlin">60</div>
+            </div>
+          </div>
+          <div className="quxeesw341 flexRow">
+            <div className="yosomargin">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">4</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">16</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">30</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">5</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">12</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">100</div>
+              <div className="divlineCSS"></div>
+              <div className="textCenter">180</div>
+            </div>
+            <div className="yosomargin">
+              <div className="textCenter">60</div>
+              <div className="divlineCSS6"></div>
+              <div className="textCenter">120</div>
+            </div>
+          </div>
+          <div>
+            <input type="text" className="averageInput" />
           </div>
         </div>
       </div>

@@ -643,7 +643,7 @@ const Styled = {
       right: 46%;
     }
     .inputSize1 {
-      width: 3vw;
+      width: 65px;
       height: 4vh;
       border-radius: 5px;
       border: 1px solid gray;
@@ -732,7 +732,7 @@ const Styled = {
       position: relative;
     }
     .quiz1 {
-      min-width: 500px;
+      min-width: 800px;
       position: relative;
       display: grid;
       grid-template-columns: 50% 50%;
@@ -801,6 +801,9 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
+    .minwidwer900px {
+      min-width: 680px;
+    }
     .number3111 {
       margin: -18% 20px 0 0;
     }
@@ -821,7 +824,7 @@ const Styled = {
     }
     .box31145 {
       padding-right: 10px;
-      height: 380px;
+      height: 420px;
     }
     .quiz1211 {
       position: relative;
@@ -841,6 +844,10 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
+    .afwea {
+      min-width: 880px;
+      grid-template-columns: 45% 45%;
+    }
     .quiz3111 {
       min-width: 770px;
       position: relative;
@@ -858,6 +865,9 @@ const Styled = {
       align-items: center;
       justify-content: center;
       margin-top: 50px;
+    }
+    .quiz3429 {
+      grid-template-columns: 35% 35%;
     }
     .quiz2 {
       position: relative;
@@ -896,6 +906,10 @@ const Styled = {
       align-items: center;
     }
     .quizAllLate {
+      position: relative;
+      left: -20%;
+    }
+    .wef213 {
       position: relative;
     }
     .quizAllLine {
@@ -1056,6 +1070,9 @@ const Styled = {
       .margin5px {
         margin-top: 5px;
       }
+    }
+    .mpijo {
+      background-color: white;
     }
     .marginbottom666 {
       margin-top: 20px;
@@ -1237,6 +1254,9 @@ const Styled = {
       margin-right: 24px;
       margin-top: -8px;
     }
+    .quizNumbToi13 {
+      margin-top: -58px;
+    }
     .quizNumber1231 {
       margin-right: 40px;
       font-size: 22px;
@@ -1354,6 +1374,37 @@ const Styled = {
     .marginwtwtt {
       margin-top: 10px;
       margin-left: 151px;
+    }
+    .awefaw {
+      margin-top: 10px;
+      margin-left: 109px;
+    }
+    .afweweaf141 {
+      margin-left: -50px;
+    }
+    .awefaw33132 {
+      margin-top: 10px;
+      margin-left: 125px;
+    }
+    .awefaw331324 {
+      margin-top: 10px;
+      margin-left: 122px;
+    }
+    .awefaw331 {
+      margin-top: 10px;
+      margin-left: 140px;
+    }
+    .awefaw3311 {
+      margin-top: 10px;
+      margin-left: 130px;
+    }
+    .awefaw3312 {
+      margin-top: 10px;
+      margin-left: 146px;
+    }
+    .marginwtwt123t {
+      margin-top: 10px;
+      margin-left: 143.5px;
     }
     .margintop2512 {
       margin-top: 10px;
@@ -1504,7 +1555,9 @@ const Styled = {
         right: 40%;
         top: 63%;
       }
-
+      .quizLine121455 {
+        right: 43%;
+      }
       .d-line4:before,
       .d-line4:after {
         content: '';
@@ -1535,7 +1588,9 @@ const Styled = {
         left: 43%;
         top: 100%;
       }
-
+      .awoefiawfe {
+        left: 45%;
+      }
       .d-line5:before,
       .d-line5:after {
         content: '';
@@ -1770,7 +1825,12 @@ const Styled = {
       outline: none;
       padding-left: 3px;
     }
-
+    .quizInput1231 {
+      right: 39%;
+    }
+    .quizInput1239 {
+      right: 37%;
+    }
     .borderRedInput3 {
       font-size: 10px;
       width: 42px;
@@ -1961,6 +2021,18 @@ const Styled = {
       border: 1px solid black;
       margin: 2px 0px;
     }
+    .divlineCSS10 {
+      width: 17px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
+    .divlineCSS11 {
+      width: 12px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
     .divlineRedColor {
       border: 1px solid red;
     }
@@ -1979,6 +2051,11 @@ const Styled = {
       white-space: nowrap;
     }
     .justifyCenter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .jawfiejaw {
       justify-content: center;
       align-items: center;
     }
@@ -2006,7 +2083,7 @@ const Styled = {
     .fifthQuiz231Input {
       width: 4vw;
       height: 42px;
-      font-size: 22px;
+      font-size: 25px;
       border-radius: 5px;
       border: 1px solid #e2e2e2;
       text-align: center;
@@ -2140,9 +2217,10 @@ const Styled = {
       left: 400px;
     }
     .line13222 {
-      left: 370px;
+      left: 100px;
       top: 43%;
     }
+
     .line13223 {
       left: 40px;
     }
@@ -2151,7 +2229,7 @@ const Styled = {
       top: 43%;
     }
     .line13226 {
-      left: 342px;
+      left: 82px;
       top: 43%;
     }
     .line13224 {
@@ -2162,7 +2240,7 @@ const Styled = {
       top: 43%;
     }
     .line13232 {
-      left: 157%;
+      left: 92px;
       top: 43%;
     }
     .marginleft2231 {
@@ -2224,6 +2302,12 @@ const Styled = {
       border-radius: 5px;
       font-weight: 600;
       font-size: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+    .example div {
+      margin-left: 5px;
+      color: red;
     }
 
     .conclusion {
@@ -2266,10 +2350,13 @@ const Styled = {
       min-width: 550px;
       margin-left: 10%;
       padding: 15px;
-      margin-top: 100px;
+      margin-top: 50px;
       width: 80%;
       border: 1px solid #e2e2e2;
       border-radius: 15px;
+    }
+    .aewrfawe {
+      margin-left: 7%;
     }
     .paddingExp {
       padding: 15px;
@@ -2277,9 +2364,111 @@ const Styled = {
     .marginbottomtic {
       margin-bottom: 8px;
     }
+    .lawefkoiwerf {
+      margin-left: 80px;
+    }
     .colorRedOnly {
       color: red;
       margin-left: 10px;
+    }
+    .textRight332 {
+      margin-top: 20px;
+      text-align: right;
+      color: gray;
+    }
+    .heieeiei341 {
+      height: 45px;
+    }
+    .heiwerlin {
+      line-height: 30px;
+      height: 45px;
+    }
+    .cororo {
+      width: 70px;
+      height: 70px;
+      background-color: rgba(255, 0, 255, 0.2);
+      border: 1px solid #d0e8df;
+    }
+    .quxeesw341 {
+      background-color: #e9e9e9;
+      padding: 15px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px 20px;
+      width: 600px;
+    }
+    .yosomargin {
+      margin: 0px 40px;
+    }
+    .sqerqrmairign {
+      margin: 4px 20px 0px 0px;
+    }
+    .gagprajgw {
+      gap: 60px 0px;
+      height: 850px;
+    }
+    .asfw {
+      min-width: 367px;
+      padding: 20px 0px 10px 15px;
+      margin: 20px;
+      border: 1px solid gray;
+      border-radius: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .asdfawe {
+      color: skyblue;
+    }
+    .awrfaw {
+      color: #fff99f;
+    }
+    .afwe {
+      margin-left: -20px;
+      margin-right: 40px;
+    }
+    .nuarfwa533 {
+      font-size: 20px;
+      position: absolute;
+      top: -20px;
+      left: -30px;
+    }
+    .redeinptueq {
+      font-size: 35px;
+      margin: 0 7px;
+      border-radius: 50%;
+    }
+    .colrrwrinput {
+      color: red;
+    }
+    .awemaraalow {
+      margin: 0px 20px;
+    }
+    .marginlR10px {
+      margin: 30px 10px;
+    }
+    .mairgin-wef {
+      margin-right: -75px;
+    }
+    .awefinbptu {
+      color: red;
+      border: none;
+      width: 15px;
+      height: 15px;
+      font-size: 20px;
+    }
+    .arfgawefawbort {
+      border: 1px solid red;
+    }
+    .fontSize14 {
+      font-size: 14px;
+    }
+    .margialefeef {
+      margin-left: -56px;
+    }
+    .peiafoewijao {
+      padding: 8px;
     }
   `,
 };

@@ -19,7 +19,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">51</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -40,7 +40,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">112</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -58,7 +58,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">61</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -76,7 +76,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">65</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -94,7 +94,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">77</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -112,7 +112,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">79</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -130,7 +130,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">81</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -148,7 +148,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">89</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />
@@ -166,7 +166,7 @@ const FifthGrade05: React.FC = () => {
               <div className="quiz2131">91</div>
             </div>
             <input
-              className="fifthQuiz213Input marginbottom666"
+              className="averageInput marginbottom666"
               type="text"
               placeholder=""
             />

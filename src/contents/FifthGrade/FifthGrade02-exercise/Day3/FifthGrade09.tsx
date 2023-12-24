@@ -8,7 +8,7 @@ const FifthGrade09: React.FC = () => {
       <div className="quizAll">
         <div className="quiz1">
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 24보다 큰 6의 배수 중 가장 작은 수
               </p>
@@ -27,7 +27,7 @@ const FifthGrade09: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ① 30보다 작은 4의 배수 중 가장 큰 수
               </p>

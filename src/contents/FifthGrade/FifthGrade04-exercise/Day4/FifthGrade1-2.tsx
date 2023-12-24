@@ -1,18 +1,16 @@
 import DayLayout from '../../Layout/Day4';
 import Styled from '../../style';
 import ConfirmBtn from '../../utils/ConfirmBtn';
-import { FifthGrade1Day42 } from '../../utils/handleTitle';
+import { FifthGrade3Day42 } from '../../utils/handleTitle';
 import FifthGrade11 from './FifthGrade11';
 
 const FifthGrade12Exercise: React.FC = () => {
   return (
     <DayLayout
-      title={FifthGrade1Day42.title}
-      subTitle={FifthGrade1Day42.subTitle}
+      title={FifthGrade3Day42.title}
+      subTitle={FifthGrade3Day42.subTitle}
     >
-      <Styled.RowWrapBox10>
-        <FifthGrade11 />
-      </Styled.RowWrapBox10>
+      <FifthGrade11 />
       <ConfirmBtn type={true} day={4} />
     </DayLayout>
   );

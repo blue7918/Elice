@@ -25,9 +25,13 @@ const FifthGrade10: React.FC = () => {
               <div className="Red233 fontSize25">39÷6=6…3</div>
             </div>
             <div className="flexcol elemet2411">
-              <p>1부터 39까지의 수에서</p>
-              <p>39를 6으로 나누면 몫이 6이고 나머지가 3이므로</p>
-              <p>6×1에서 6×6까지 모두 6개의 배수가 있습니다.</p>
+              <p className="fontSize20">1부터 39까지의 수에서</p>
+              <p className="fontSize20">
+                39를 6으로 나누면 몫이 6이고 나머지가 3이므로
+              </p>
+              <p className="fontSize20">
+                6×1에서 6×6까지 모두 6개의 배수가 있습니다.
+              </p>
             </div>
           </div>
         </div>

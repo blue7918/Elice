@@ -7,7 +7,7 @@ const FifthGrade12: React.FC = () => {
       <div className="quizAll">
         <div className="quiz1">
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ①&nbsp;&nbsp;&nbsp;&nbsp; 9 ＜ ★ ＜ 65
               </p>
@@ -24,7 +24,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ②&nbsp;&nbsp;&nbsp;&nbsp; 18 ＜ ★ ＜ 75
               </p>
@@ -41,7 +41,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ③&nbsp;&nbsp;&nbsp;&nbsp; 26 ＜ ★ ＜ 96
               </p>
@@ -58,7 +58,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ④&nbsp;&nbsp;&nbsp;&nbsp; 32 ＜ ★ ＜ 88
               </p>
@@ -75,7 +75,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ⑤&nbsp;&nbsp;&nbsp;&nbsp; 30 ＜ ★ ＜ 90
               </p>
@@ -92,7 +92,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ⑥&nbsp;&nbsp;&nbsp;&nbsp; 20 ＜ ★ ＜ 70
               </p>
@@ -111,7 +111,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ⑦&nbsp;&nbsp;&nbsp;&nbsp; 20 ＜ ★ ＜ 89
               </p>
@@ -128,7 +128,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ⑧&nbsp;&nbsp;&nbsp;&nbsp; 17 ＜ ★ ＜ 100
               </p>
@@ -147,7 +147,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ⑨&nbsp;&nbsp;&nbsp;&nbsp; 10 ＜ ★ ＜ 90
               </p>
@@ -164,7 +164,7 @@ const FifthGrade12: React.FC = () => {
             </div>
           </div>
           <div className="quizCard11">
-            <div className="marginTop18 flexcol">
+            <div className="flexcol">
               <p className="quizNumber1231">
                 ⑩&nbsp;&nbsp;&nbsp;&nbsp; 5 ＜ ★ ＜ 70
               </p>

@@ -75,7 +75,7 @@ const FifthGrade04: React.FC = () => {
       <div className="quiz32131">
         <div className="flexRow justtispaceArout borderBalck marginbottom666">
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">①</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">1</div>
@@ -85,7 +85,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">②</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">8</div>
@@ -95,7 +95,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">③</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">11</div>
@@ -105,7 +105,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">④</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">4</div>
@@ -115,7 +115,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">⑤</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">9</div>
@@ -125,16 +125,12 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div>
-            <input
-              className="fifthQuiz213Input"
-              type="text"
-              placeholder="1,3,4"
-            />
+            <input className="averageInput" type="text" placeholder="" />
           </div>
         </div>
         <div className="flexRow justtispaceArout borderBalck marginbottom666">
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">①</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">4</div>
@@ -144,7 +140,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">②</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">7</div>
@@ -154,7 +150,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">③</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">6</div>
@@ -164,7 +160,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">④</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">8</div>
@@ -174,7 +170,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">⑤</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">49</div>
@@ -184,12 +180,12 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div>
-            <input className="fifthQuiz213Input" type="text" placeholder="" />
+            <input className="averageInput" type="text" placeholder="" />
           </div>
         </div>
         <div className="flexRow justtispaceArout borderBalck marginbottom666">
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">①</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">3</div>
@@ -199,7 +195,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">②</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">9</div>
@@ -209,7 +205,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">③</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">16</div>
@@ -219,7 +215,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">④</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">9</div>
@@ -229,7 +225,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">⑤</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">17</div>
@@ -239,12 +235,12 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div>
-            <input className="fifthQuiz213Input" type="text" placeholder="" />
+            <input className="averageInput" type="text" placeholder="" />
           </div>
         </div>
         <div className="flexRow justtispaceArout borderBalck marginbottom666">
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">①</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">1</div>
@@ -254,7 +250,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">②</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">2</div>
@@ -264,7 +260,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">③</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">11</div>
@@ -274,7 +270,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">④</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">13</div>
@@ -284,7 +280,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">⑤</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">39</div>
@@ -294,12 +290,12 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div>
-            <input className="fifthQuiz213Input" type="text" placeholder="" />
+            <input className="averageInput" type="text" placeholder="" />
           </div>
         </div>
         <div className="flexRow justtispaceArout borderBalck marginbottom666">
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">①</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">3</div>
@@ -309,7 +305,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">②</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">4</div>
@@ -319,7 +315,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">③</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">5</div>
@@ -329,7 +325,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">④</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">14</div>
@@ -339,7 +335,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div className="flexRow">
-            <div className="fontSize25 marginRight231">⑤</div>
+            <div className="fontSize25 marginRight231"></div>
             <div>
               <div className="fontSize25">
                 <div className="textCenter">17</div>
@@ -349,7 +345,7 @@ const FifthGrade04: React.FC = () => {
             </div>
           </div>
           <div>
-            <input className="fifthQuiz213Input" type="text" placeholder="" />
+            <input className="averageInput" type="text" placeholder="" />
           </div>
         </div>
       </div>

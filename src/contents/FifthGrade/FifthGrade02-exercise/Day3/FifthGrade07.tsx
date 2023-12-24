@@ -8,23 +8,37 @@ const FifthGrade07: React.FC = () => {
         <div className="quiz211">
           <div className="conclusion">
             <p>
-              <span>
+              <span className="fontSize20">
                 어떤 수를 1배, 2배, 3배, 4배, …… 한 수를 그 수의 배수라고
                 합니다.
               </span>
             </p>
-            <p>5를 1배, 2배, 3배, 4배, …… 하면</p>
+            <p className="fontSize20">5를 1배, 2배, 3배, 4배, …… 하면</p>
           </div>
           <div className="division-examples">
-            <div className="example">5 × 1 = 5</div>
-            <div className="example">5 × 2 = 10</div>
-            <div className="example">5 × 3 = 15</div>
-            <div className="example">5 × 4 = 20</div>
-            <div className="example">5 × 5 = 25</div>
-            <div className="example">5 × 6 = 30 </div>
+            <div className="example">
+              5 × 1 = <div>5</div>
+            </div>
+            <div className="example">
+              5 × 2 = <div>10</div>
+            </div>
+            <div className="example">
+              5 × 3 = <div>15</div>
+            </div>
+            <div className="example">
+              5 × 4 = <div>20</div>
+            </div>
+            <div className="example">
+              5 × 5 = <div>25</div>
+            </div>
+            <div className="example">
+              5 × 6 = <div>30</div>
+            </div>
           </div>
           <div className="conclusion">
-            <p>5, 10, 15, 20, 25, 30, …… 은 5의 배수입니다</p>
+            <p className="fontSize20">
+              5, 10, 15, 20, 25, 30, …… 은 5의 배수입니다
+            </p>
           </div>
         </div>
         <div>

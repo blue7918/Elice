@@ -17,7 +17,7 @@ const FifthGrade15: React.FC = () => {
               </div>
 
               <div className="justAlignCenter">
-                <input className="fifthQuiz231Input" placeholder="4,72" />
+                <input className="fifthQuiz231Input" placeholder="58" />
               </div>
             </div>
           </div>

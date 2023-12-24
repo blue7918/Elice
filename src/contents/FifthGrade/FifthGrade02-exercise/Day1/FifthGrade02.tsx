@@ -5,10 +5,10 @@ const FifthGrade02: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
       <div className="quizAll">
-        <div className="quiz2111">
+        <div className="quiz2111 afwea">
           <div className="quizCard211 flexCol">
             <div className="flexRow fif221221">
-              <p className="quizNumber1226">①</p>
+              <p className="quizNumber1226 quizNumbToi13">①</p>
               <div className="textleft1231">
                 8 ÷ <input className="averageInput" type="text" /> = 8
               </div>
@@ -27,7 +27,7 @@ const FifthGrade02: React.FC = () => {
           </div>
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">②</p>
+              <p className="quizNumber1226 quizNumbToi13">②</p>
               <div className="textleft1231">
                 6 ÷ <input className="averageInput" type="text" /> = 6
               </div>
@@ -46,7 +46,7 @@ const FifthGrade02: React.FC = () => {
           </div>
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">③</p>
+              <p className="quizNumber1226 quizNumbToi13">③</p>
               <div className="textleft1231">
                 9 ÷ <input className="averageInput" type="text" /> = 9
               </div>
@@ -92,7 +92,7 @@ const FifthGrade02: React.FC = () => {
           </div>
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">⑤</p>
+              <p className="quizNumber1226 quizNumbToi13">⑤</p>
               <div className="textleft1231">
                 15 ÷ <input className="averageInput" type="text" /> = 15
               </div>
@@ -138,7 +138,7 @@ const FifthGrade02: React.FC = () => {
           </div>
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">⑦</p>
+              <p className="quizNumber1226 quizNumbToi13">⑦</p>
               <div className="textleft1231">
                 21 ÷ <input className="averageInput" type="text" /> = 21
               </div>
@@ -157,7 +157,7 @@ const FifthGrade02: React.FC = () => {
           </div>
           <div className="quizCard211 flexCol">
             <div className=" flexRow fif221221">
-              <p className="quizNumber1226">⑧</p>
+              <p className="quizNumber1226 quizNumbToi13">⑧</p>
               <div className="textleft1231">
                 25 ÷ <input className="averageInput" type="text" /> = 25
               </div>

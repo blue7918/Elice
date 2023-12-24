@@ -114,7 +114,7 @@ export const FifthGrade2Day12 = {
 
 export const FifthGrade2Day13 = {
   title: '약수',
-  subTitle: '주어진 수들 중에서 약수인 것을 나열하세요.(예시: 1,2,4)',
+  subTitle: '주어진 수 중 약수의 갯수를 구하세요.',
 };
 
 export const FifthGrade2Day21 = {
@@ -132,7 +132,7 @@ export const FifthGrade2Day31 = {
 };
 export const FifthGrade2Day32 = {
   title: '배수',
-  subTitle: '큰 마름모 수의 배수인 것을 모두 쓰세요',
+  subTitle: '큰 마름모 수의 배수의 갯수를 쓰세요',
 };
 export const FifthGrade2Day33 = {
   title: '배수',
@@ -160,7 +160,7 @@ export const FifthGrade2Day52 = {
 };
 export const FifthGrade2Day53 = {
   title: '약수와 배수의 관계',
-  subTitle: '세 수 중에서 약수와 배수의 관계인 두 수를 찾으세요.',
+  subTitle: '세 수 중에서 약수와 배수의 관계가 아닌 수를 찾으세요.',
 };
 export const FifthGrade3Day11 = {
   title: '약분과 통분',
@@ -177,7 +177,7 @@ export const FifthGrade3Day13 = {
 };
 export const FifthGrade3Day21 = {
   title: '분모가 다른 진분수의 덧셈과 뺄셈',
-  subTitle: '기약분수에 ...',
+  subTitle: '기약분수의 갯수를 적으세요.',
 };
 export const FifthGrade3Day22 = {
   title: '분모가 다른 진분수의 덧셈과 뺄셈',

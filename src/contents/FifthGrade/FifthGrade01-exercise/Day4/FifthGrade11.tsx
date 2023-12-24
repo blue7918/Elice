@@ -66,7 +66,7 @@ const FifthGrade11: React.FC = () => {
             <div className="marginTop18 quizMargin1422 marginLeftZero">
               84 ÷ (7 × 4) = <input className="inputSize1" type="text" />
             </div>
-            <div className="marginBottom18">
+            <div className="marginBottom18 marginLeftZero">
               84 ÷ (7 × 4) = <input className="inputSize1" type="text" />
             </div>
           </div>

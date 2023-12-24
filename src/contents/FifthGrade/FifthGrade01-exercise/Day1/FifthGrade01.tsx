@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Styled from '../../style';
-import { AnswersType } from '../../Type/Type1';
+import type { AnswersType } from '../../Type/Type1';
 
 const FifthGrade01: React.FC = () => {
   const [answers, setAnswers] = useState<AnswersType>({
@@ -55,9 +55,8 @@ const FifthGrade01: React.FC = () => {
   };
   // 정답 확인 처리
   const checkAnswers = () => {
-    for (let key in correctAnswers) {
+    for (const key in correctAnswers) {
       if (answers[key] !== correctAnswers[key]) {
-        // key 1 2 3 4 가 틀리면 1번문제는 틀렸다고 표시한다던가
         console.log(`문제 ${key} 오답`);
       } else {
         console.log(`문제 ${key} 정답`);

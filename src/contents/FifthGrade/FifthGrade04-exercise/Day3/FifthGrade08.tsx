@@ -4,188 +4,485 @@ import Styled from '../../style';
 const FifthGrade08: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll">
-        <div className="quiz1 quizMargin3 fontSize25">
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">7</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">8</div>
-              <div className="quiz2131">12</div>
-              <div className="quiz2131">13</div>
-              <div className="quiz2131">14</div>
-              <div className="quiz2131">20</div>
-              <div className="quiz2131">21</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder="14,21"
-            />
+      <div className="textRight332">
+        *문제에 적힌 순서대로 답을 입력해주세요.
+      </div>
+      <div className="quiz33131">
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>①&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">4</div>
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">9</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">3</div>
-              <div className="quiz2131">9</div>
-              <div className="quiz2131">16</div>
-              <div className="quiz2131">27</div>
-              <div className="quiz2131">32</div>
-              <div className="quiz2131">36</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">6</div>
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">11</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">7</div>
-              <div className="quiz2131">11</div>
-              <div className="quiz2131">24</div>
-              <div className="quiz2131">32</div>
-              <div className="quiz2131">44</div>
-              <div className="quiz2131">77</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">15</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">5</div>
-              <div className="quiz2131">15</div>
-              <div className="quiz2131">25</div>
-              <div className="quiz2131">30</div>
-              <div className="quiz2131">75</div>
-              <div className="quiz2131">95</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">18</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">1</div>
-              <div className="quiz2131">6</div>
-              <div className="quiz2131">36</div>
-              <div className="quiz2131">48</div>
-              <div className="quiz2131">72</div>
-              <div className="quiz2131">90</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>②&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">5</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">8</div>
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">24</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">12</div>
-              <div className="quiz2131">24</div>
-              <div className="quiz2131">32</div>
-              <div className="quiz2131">40</div>
-              <div className="quiz2131">48</div>
-              <div className="quiz2131">72</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">2</div>
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">36</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">2</div>
-              <div className="quiz2131">6</div>
-              <div className="quiz2131">18</div>
-              <div className="quiz2131">62</div>
-              <div className="quiz2131">72</div>
-              <div className="quiz2131">180</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">40</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">20</div>
-              <div className="quiz2131">40</div>
-              <div className="quiz2131">60</div>
-              <div className="quiz2131">80</div>
-              <div className="quiz2131">100</div>
-              <div className="quiz2131">160</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">55</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">11</div>
-              <div className="quiz2131">33</div>
-              <div className="quiz2131">55</div>
-              <div className="quiz2131">110</div>
-              <div className="quiz2131">165</div>
-              <div className="quiz2131">220</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>③&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">5</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">7</div>
           </div>
-          <div className="flexCol marginbottom666">
-            <div className="quiz2131 add2131">
-              <span className="posiAbAb">61</span>
-            </div>
-            <div className="flexRow marginTop213">
-              <div className="quiz2131">31</div>
-              <div className="quiz2131">61</div>
-              <div className="quiz2131">122</div>
-              <div className="quiz2131">182</div>
-              <div className="quiz2131">183</div>
-              <div className="quiz2131">242</div>
-            </div>
-            <input
-              className="fifthQuiz213Input marginbottom666"
-              type="text"
-              placeholder=""
-            />
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">5</div>
           </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>④ &nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">6</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">8</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">9</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑤&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">5</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">8</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">4</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑥&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">2</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">7</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">10</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑦&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">5</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">6</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">8</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">15</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑧&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">6</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">8</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">2</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">3</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑨&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">11</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">12</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">4</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">5</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑩&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">4</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">9</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">3</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑪&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">1</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">10</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">13</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">15</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑫&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">4</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">9</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">7</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">15</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑬&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">5</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">12</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">3</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">16</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div className="flexRow fontSize20 marginTop18 marginbottomtic">
+          <p>⑭&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <div>(</div>
+          <div className="fontSize20 marginLeft10px">
+            <div className="textCenter">9</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">14</div>
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <div className="textCenter">9</div>
+            <div className="divlineCSS7"></div>
+            <div className="textCenter">10</div>
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <img
+            className="allowRight"
+            src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+            alt=""
+          />
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+          <div className="fontSize20 marginLeft10px">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div className="commaHeight">,</div>
+          <div className="fontSize20 marginRighttic">
+            <input type="text" className="averageInput331" />
+            <div className="divlineCSS7"></div>
+            <input type="text" className="averageInput331" />
+          </div>
+          <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
         </div>
       </div>
     </Styled.OneToNine>

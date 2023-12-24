@@ -4,188 +4,359 @@ import Styled from '../../style';
 const FifthGrade11: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizAll asdfasdf242">
-        <div className="quiz241Ex">
-          <div className="flexRow nowrap1">
-            <div className="flexcol nowrap1">
-              <div className="textLLeft fontSize20">
-                28보다 크고 57보다 작은 수 중에서 3의 배수의 개수
-              </div>
-              <div className="flexRow quizNumber123522">
-                <div className="borderColor233 margin2410 quizNumber1235">
-                  18
-                </div>
-                -
-                <div className="borderColor233 margin2410 quizNumber1235">
-                  9
-                </div>
-                =
-                <div className="borderColor233 margin2410 quizNumber1235">
-                  9
-                </div>
-                (개)
-              </div>
-              <div className="flexRow">
-                <div className="Red233 fontSize20">56÷3=18…2</div>
-                <div className="Red233 fontSize20 marginwerq2452">28÷3=9…1</div>
-              </div>
+      <div className="quiz1 quiz3429">
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">①</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter asdfawe">★</div>
             </div>
-            <div className="flexcol elemet2411">
-              <p>
-                1에서 56까지 3의 배수가 18개, 1에서 28까지 3의 배수가 9개이므로
-                29에서 56까지의 수에는 3의 배수는 모두 18-9=9(개)가 있습니다.
-              </p>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">7</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">12</div>
             </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">9</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">24</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">24</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          </div>
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
+          </div>
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
           </div>
         </div>
-        <div className="marginTop231">
-          <div className="quizNumber123887">
-            <p className="fontSize20">
-              ① 21보다 크고 70보다 작은 수 중에서 4의 배수의 개수
-            </p>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">②</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">6</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">4</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter asdfawe">★</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">30</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">8</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">30</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
-          <div className="fontSize25 flexRow marginleft2421">
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">-</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">=</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />{' '}
-            (개)
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
           </div>
-        </div>
-        <div className="marginTop231">
-          <div className="quizNumber123887">
-            <p className="fontSize20">
-              ② 35보다 크고 90보다 작은 수 중에서 6의 배수의 개수
-            </p>
-          </div>
-          <div className="fontSize25 flexRow marginleft2421">
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">-</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">=</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />{' '}
-            (개)
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
           </div>
         </div>
-        <div className="marginTop231">
-          <div className="quizNumber123887">
-            <p className="fontSize20">
-              ③ 50보다 크고 100보다 작은 수 중에서 8의 배수의 개수
-            </p>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">③</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter asdfawe">★</div>
+
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">5</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">9</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">10</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">8</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">10</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">10</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
-          <div className="fontSize25 flexRow marginleft2421">
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">-</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">=</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />{' '}
-            (개)
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
           </div>
-        </div>
-        <div className="marginTop231">
-          <div className="quizNumber123887">
-            <p className="fontSize20">
-              ④ 40보다 크고 90보다 작은 수 중에서 9의 배수의 개수
-            </p>
-          </div>
-          <div className="fontSize25 flexRow marginleft2421">
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">-</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />
-            <div className="">=</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />{' '}
-            (개)
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
           </div>
         </div>
-        <div className="marginTop231">
-          <div className="quizNumber123887">
-            <p className="fontSize20">
-              ⑤ 37보다 크고 100보다 작은 수 중에서 12의 배수의 개수
-            </p>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">④</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">4</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter asdfawe">★</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">11</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">24</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">12</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">48</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">48</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
-          <div className="fontSize25 flexRow marginleft2421">
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
+          </div>
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">⑤</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">12</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter asdfawe">★</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">15</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
             />
-            <div className="">-</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">60</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">28</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">60</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          </div>
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
+          </div>
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">⑥</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter asdfawe">★</div>
+
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">9</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">5</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">6</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
             />
-            <div className="">=</div>
-            <input
-              className="borderColor233 quizNumber1235"
-              type="text"
-              name=""
-              id=""
-            />{' '}
-            (개)
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">16</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">18</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">18</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          </div>
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
+          </div>
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">⑦</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">10</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter asdfawe">★</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">20</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">15</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">20</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          </div>
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
+          </div>
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
+          </div>
+        </div>
+        <div className="asfw flexRow fontSize20 wef213">
+          <p className="nuarfwa533">⑧</p>
+          <div className="flexRow noWrap1">
+            <div>(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter">5</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">8</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter asdfawe">★</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">9</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <img
+              className="allowRight"
+              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
+              alt=""
+            />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
+            <div className="fontSize20 marginLeft10px">
+              <div className="textCenter awrfaw">♥</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">72</div>
+            </div>
+            <div className="commaHeight">,</div>
+            <div className="fontSize20 marginRighttic">
+              <div className="textCenter">64</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">72</div>
+            </div>
+            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          </div>
+          <div className="fontSize25 flexRow afwe">
+            <p className="asdfawe">★</p> =
+            <input type="text" className="averageInput" />
+          </div>
+          <div className="fontSize25 flexRow ">
+            <p className="awrfaw">♥</p> =
+            <input type="text" className="averageInput" />
           </div>
         </div>
       </div>

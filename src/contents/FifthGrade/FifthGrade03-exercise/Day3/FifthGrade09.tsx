@@ -4,6 +4,9 @@ import Styled from '../../style';
 const FifthGrade09: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
+      <div className="textRight332">
+        *문제에 적힌 순서대로 답을 입력해주세요.
+      </div>
       <div className="quiz33131">
         <div className="flexRow fontSize20 marginTop18 marginbottomtic">
           <p>①&nbsp;&nbsp;&nbsp;&nbsp;</p>

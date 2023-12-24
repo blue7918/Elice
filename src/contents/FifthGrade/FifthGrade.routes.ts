@@ -171,4 +171,76 @@ export default createEliceExtRoutes([
     path: 'quiz3-4-3',
     component: import('./FifthGrade03-exercise/Day4/FifthGrade1-3'),
   },
+  {
+    path: 'quiz3-5-1',
+    component: import('./FifthGrade03-exercise/Day5/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz3-5-2',
+    component: import('./FifthGrade03-exercise/Day5/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz3-5-3',
+    component: import('./FifthGrade03-exercise/Day5/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz4-1-1',
+    component: import('./FifthGrade04-exercise/Day1/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz4-1-2',
+    component: import('./FifthGrade04-exercise/Day1/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz4-1-3',
+    component: import('./FifthGrade04-exercise/Day1/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz4-2-1',
+    component: import('./FifthGrade04-exercise/Day2/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz4-2-2',
+    component: import('./FifthGrade04-exercise/Day2/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz4-2-3',
+    component: import('./FifthGrade04-exercise/Day2/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz4-3-1',
+    component: import('./FifthGrade04-exercise/Day3/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz4-3-2',
+    component: import('./FifthGrade04-exercise/Day3/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz4-3-3',
+    component: import('./FifthGrade04-exercise/Day3/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz4-4-1',
+    component: import('./FifthGrade04-exercise/Day4/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz4-4-2',
+    component: import('./FifthGrade04-exercise/Day4/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz4-4-3',
+    component: import('./FifthGrade04-exercise/Day4/FifthGrade1-3'),
+  },
+  {
+    path: 'quiz4-5-1',
+    component: import('./FifthGrade04-exercise/Day5/FifthGrade1-1'),
+  },
+  {
+    path: 'quiz4-5-2',
+    component: import('./FifthGrade04-exercise/Day5/FifthGrade1-2'),
+  },
+  {
+    path: 'quiz4-5-3',
+    component: import('./FifthGrade04-exercise/Day5/FifthGrade1-3'),
+  },
 ]);

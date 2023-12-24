@@ -51,14 +51,14 @@ const FifthGrade07: React.FC = () => {
                 <div className="flexrow">
                   <div className="flexRow">
                     <p className="quizNumber1211 quizMargin1131">①</p>
-                    45 ÷ (15 ÷3) =
+                    45 ÷ (15 ÷ 3) =
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1239" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 quizLine121455"></div>
+                <div className="d-line5 awoefiawfe"></div>
               </div>
             </div>
             <div className="quizCardNone">
@@ -66,14 +66,14 @@ const FifthGrade07: React.FC = () => {
                 <div className="flexrow">
                   <div className="flexRow">
                     <p className="quizNumber1211 quizMargin1131">②</p>
-                    14 × (12 ÷6) =
+                    14 × (12 ÷ 6) =
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1239" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 quizLine121455"></div>
+                <div className="d-line5 awoefiawfe"></div>
               </div>
             </div>
             <div className="quizCardNone">
@@ -81,14 +81,14 @@ const FifthGrade07: React.FC = () => {
                 <div className="flexrow">
                   <div className="flexRow">
                     <p className="quizNumber1211 quizMargin1131">③</p>
-                    100 ÷ (5 ×4) ={' '}
+                    100 ÷ (5 × 4) ={' '}
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1239" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 quizLine121455"></div>
+                <div className="d-line5 awoefiawfe"></div>
               </div>
             </div>
             <div className="quizCardNone ">
@@ -96,14 +96,14 @@ const FifthGrade07: React.FC = () => {
                 <div className="flexrow">
                   <div className="flexRow">
                     <p className="quizNumber1211 quizMargin1131">④</p>
-                    80 ÷ (24 ÷3) ={' '}
+                    80 ÷ (24 ÷ 3) ={' '}
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1239" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 quizLine121455"></div>
+                <div className="d-line5 awoefiawfe"></div>
               </div>
             </div>
             <div className="quizCardNone quizMargin2">
@@ -111,14 +111,14 @@ const FifthGrade07: React.FC = () => {
                 <div className="flexrow">
                   <div className="flexRow">
                     <p className="quizNumber1211 quizMargin1131">⑤</p>
-                    126 ÷ (3 ×7) ={' '}
+                    126 ÷ (3 × 7) ={' '}
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1239" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 quizLine121455"></div>
+                <div className="d-line5 awoefiawfe"></div>
               </div>
             </div>
             <div className="quizCardNone">
@@ -126,14 +126,14 @@ const FifthGrade07: React.FC = () => {
                 <div className="flexrow">
                   <div className="flexRow">
                     <p className="quizNumber1211 quizMargin1131">⑥</p>
-                    7 × (15 ×4) =
+                    7 × (15 × 4) =
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1239" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
-                <div className="d-line5"></div>
+                <div className="d-line4 quizLine121455"></div>
+                <div className="d-line5 awoefiawfe"></div>
               </div>
             </div>
           </div>

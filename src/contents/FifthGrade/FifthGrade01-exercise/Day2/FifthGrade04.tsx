@@ -55,9 +55,9 @@ const FifthGrade04: React.FC = () => {
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1231" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
+                <div className="d-line4 quizLine121455"></div>
                 <div className="d-line5"></div>
               </div>
             </div>
@@ -70,9 +70,9 @@ const FifthGrade04: React.FC = () => {
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1231" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
+                <div className="d-line4 quizLine121455"></div>
                 <div className="d-line5"></div>
               </div>
             </div>
@@ -85,9 +85,9 @@ const FifthGrade04: React.FC = () => {
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1231" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
+                <div className="d-line4 quizLine121455"></div>
                 <div className="d-line5"></div>
               </div>
             </div>
@@ -100,9 +100,9 @@ const FifthGrade04: React.FC = () => {
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1231" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
+                <div className="d-line4 quizLine121455"></div>
                 <div className="d-line5"></div>
               </div>
             </div>
@@ -115,9 +115,9 @@ const FifthGrade04: React.FC = () => {
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1231" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
+                <div className="d-line4 quizLine121455"></div>
                 <div className="d-line5"></div>
               </div>
             </div>
@@ -130,9 +130,9 @@ const FifthGrade04: React.FC = () => {
                     <input type="text" className="borderRedInput1211" />
                   </div>
                 </div>
-                <input type="text" className="borderRedInput2" />
+                <input type="text" className="borderRedInput2 quizInput1231" />
                 <input type="text" className="borderRedInput3" />
-                <div className="d-line4"></div>
+                <div className="d-line4 quizLine121455"></div>
                 <div className="d-line5"></div>
               </div>
             </div>

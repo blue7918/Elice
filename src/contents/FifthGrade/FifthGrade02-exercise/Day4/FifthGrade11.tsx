@@ -31,7 +31,7 @@ const FifthGrade11: React.FC = () => {
               </div>
             </div>
             <div className="flexcol elemet2411">
-              <p>
+              <p className="fontSize20">
                 1에서 56까지 3의 배수가 18개, 1에서 28까지 3의 배수가 9개이므로
                 29에서 56까지의 수에는 3의 배수는 모두 18-9=9(개)가 있습니다.
               </p>
