@@ -801,6 +801,19 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
     }
+    .abposweewr1 {
+      position: absolute;
+      left: -10px;
+      bottom: -50px;
+    }
+    .barfaww {
+      margin-bottom: 60px;
+    }
+    .abposweewr2 {
+      position: absolute;
+      left: -9px;
+      top: -50px;
+    }
     .minwidwer900px {
       min-width: 680px;
     }
@@ -895,6 +908,12 @@ const Styled = {
       justify-content: center;
       margin-top: 50px;
       min-width: 770px;
+    }
+    .awefawrpos {
+      position: absolute;
+    }
+    .awefaSize {
+      width: 280px;
     }
     .quizAll {
       margin-top: 30px;
@@ -1267,6 +1286,9 @@ const Styled = {
     .quizNumber123887 {
       margin-top: 80px;
     }
+    .quizNumber125787 {
+      margin-top: 40px;
+    }
     .quizNumberTop {
       position: absolute;
       left: -10%;
@@ -1279,7 +1301,9 @@ const Styled = {
       flex-direction: column;
       align-content: center;
     }
-
+    .awefawufiut {
+      margin-left: 8%;
+    }
     .textRight {
       margin-top: 3%;
       margin-left: 33%;
@@ -1393,6 +1417,12 @@ const Styled = {
     .awefaw331 {
       margin-top: 10px;
       margin-left: 140px;
+    }
+    .awefaweTOp {
+      margin-top: 50px;
+    }
+    .fakwefTop {
+      margin-top: 120px;
     }
     .awefaw3311 {
       margin-top: 10px;
@@ -1997,6 +2027,12 @@ const Styled = {
       border: 1px solid black;
       margin: 2px 0px;
     }
+    .divlineCSS16 {
+      width: 179px;
+      height: 0px;
+      border: 1px solid black;
+      margin: 2px 0px;
+    }
     .divlineCSS4 {
       width: 80px;
       height: 0px;
@@ -2040,6 +2076,17 @@ const Styled = {
       width: 80%;
       padding: 15px;
     }
+    .imgawer {
+      width: 80px;
+      margin: 0px 10px;
+    }
+    .aweijaow {
+      width: 350px;
+    }
+    .awef12368568 {
+      width: 70%;
+    }
+
     .fifthQuiz212 {
       display: flex;
       flex-direction: row;
@@ -2070,6 +2117,11 @@ const Styled = {
     .allowRight {
       margin-left: 5px;
       width: 2vw;
+    }
+    .wefq4212 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
     }
     .fifthQuiz213Input {
       width: 102px;
@@ -2252,6 +2304,9 @@ const Styled = {
     }
     .marginwerq2452 {
       margin-left: 106px;
+    }
+    .marginwerq245288 {
+      margin-left: 10%;
     }
     .marginLeft3121 {
       margin-left: 56px;
@@ -2448,6 +2503,12 @@ const Styled = {
     .marginlR10px {
       margin: 30px 10px;
     }
+    .awkfaui {
+      margin: 0px 5px;
+    }
+    .marginawerq {
+      margin: 0px 10px 0px 0px;
+    }
     .mairgin-wef {
       margin-right: -75px;
     }
@@ -2469,6 +2530,73 @@ const Styled = {
     }
     .peiafoewijao {
       padding: 8px;
+    }
+    .imgAbp1 {
+      left: 115px;
+      top: 50px;
+    }
+    .imgAbp2 {
+      left: 207px;
+      top: 15px;
+    }
+    .imgAbp3 {
+      right: 115px;
+      top: 50px;
+    }
+    .imgAbp5 {
+      left: 108px;
+      top: 50px;
+    }
+    .imgAbp6 {
+      left: 199px;
+      top: 15px;
+    }
+    .imgAbp7 {
+      right: 108px;
+      top: 50px;
+    }
+    .imgAbp4 {
+      left: 202px;
+      bottom: 2px;
+    }
+    .iuaoerij {
+      margin: 0px;
+    }
+    .ewwfar {
+      width: 60%;
+      margin-left: 20%;
+    }
+    .eaf4511 {
+      position: absolute;
+      top: 32px;
+      left: 100px;
+    }
+    .eaf4512 {
+      position: absolute;
+      top: 32px;
+      left: 200px;
+    }
+    .eaf4513 {
+      position: absolute;
+      top: 32px;
+      left: 300px;
+    }
+    .eaf4514 {
+      position: absolute;
+      top: 32px;
+      left: 400px;
+    }
+    .eaf4515 {
+      position: absolute;
+      left: 50px;
+    }
+    .eaf4516 {
+      position: absolute;
+      left: 130px;
+    }
+    .eaf4517 {
+      position: absolute;
+      left: 325px;
     }
   `,
 };

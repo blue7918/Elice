@@ -225,6 +225,67 @@ export const FifthGrade3Day53 = {
   title: '분수의 크기 비교',
   subTitle: '빈칸에 알맞은 수를 써넣으세요.',
 };
+export const FifthGrade4Day11 = {
+  title: '분수의 곱셈의 이해',
+  subTitle: '두 분수 곱셈을 계산하세요',
+};
+export const FifthGrade4Day12 = {
+  title: '분수의 곱셈의 이해',
+  subTitle: '두 분수 곱셈을 계산하세요',
+};
+export const FifthGrade4Day13 = {
+  title: '분수의 곱셈의 이해',
+  subTitle: '계산을 하세요',
+};
+export const FifthGrade4Day21 = {
+  title: '분수의 곱셈과 약분',
+  subTitle: '약분을 해서 빈칸을 채우고 곱셈을 계산하세요.',
+};
+export const FifthGrade4Day22 = {
+  title: '분수의 곱셈과 약분',
+  subTitle: '계산을 하세요.',
+};
+export const FifthGrade4Day23 = {
+  title: '분수의 곱셈과 약분',
+  subTitle: '곱이 가장 크도록 세 분수 중 두 분수를 골라 곱하세요.',
+};
+export const FifthGrade4Day31 = {
+  title: '진분수와 자연수의 곱셈 ',
+  subTitle: '분수의 곱셈을 계산하세요.',
+};
+export const FifthGrade4Day32 = {
+  title: '진분수와 자연수의 곱셈 ',
+  subTitle: '분수의 곱셈을 계산하세요.',
+};
+export const FifthGrade4Day33 = {
+  title: '진분수와 자연수의 곱셈 ',
+  subTitle: '계산을 하세요.',
+};
+export const FifthGrade4Day41 = {
+  title: '세 분수의 곱셈',
+  subTitle: '분모, 분자를 약분하여 가장 간단한 수로 고쳐서 곱셈을 계산하세요.',
+};
+export const FifthGrade4Day42 = {
+  title: '세 분수의 곱셈',
+  subTitle: '약분을 해서 빈칸을 채우고 곱셈을 계산하세요.',
+};
+export const FifthGrade4Day43 = {
+  title: '세 분수의 곱셈',
+  subTitle: '계산을 하세요',
+};
+export const FifthGrade4Day51 = {
+  title: '연산 퍼즐',
+  subTitle:
+    '주어진 숫자 카드를 빈칸에 넣어 곱이 가장 작은 곱셈식을 만들고 곱을 구하세요.',
+};
+export const FifthGrade4Day52 = {
+  title: '연산 퍼즐',
+  subTitle: '수를 두 번 곱한 마지막 결과를 구하세요.',
+};
+export const FifthGrade4Day53 = {
+  title: '연산 퍼즐',
+  subTitle: '문제를 읽고 알맞은 답을 써 보세요.',
+};
 export const SubBlank = '빈칸에 알맞은 수를 써넣으세요.';
 export const SubJustCal = '계산을 하세요.';
 export const SubJustCalBelow = '다음과 같은 방법으로 계산을 하세요.';

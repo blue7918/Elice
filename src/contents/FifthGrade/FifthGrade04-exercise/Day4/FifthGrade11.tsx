@@ -4,361 +4,280 @@ import Styled from '../../style';
 const FifthGrade11: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quiz1 quiz3429">
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">①</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">3</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter asdfawe">★</div>
+      <div className="exampleBox312 ewwfar">
+        <div className="fontSize17">
+          자연수는 분모가 1인 분수로 생각하여 분모와 바로 약분한 후 분자끼리,
+          분모끼리 곱합니다.
+        </div>
+        <div className="quiz121Ex justifyCenter">
+          <img
+            className="awef12368568"
+            src={`${process.env.PUBLIC_URL}/fifthImage/4-4-2.png`}
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="quiz fontSize25">
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp marginwerq245288">
+            <p>① &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">9</div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">5</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow justifyCenter">
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp marginwerq245288">
+            <p>② &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">4</div>
+              <div className="divlineCSS1"></div>
               <div className="textCenter">7</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">12</div>
             </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">9</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">24</div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">7</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">8</div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">24</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">②</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">1</div>
-              <div className="divlineCSS7"></div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
               <div className="textCenter">6</div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">4</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter asdfawe">★</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow justifyCenter">
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
             </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">30</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">8</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">30</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">③</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter asdfawe">★</div>
-
-              <div className="divlineCSS7"></div>
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp marginwerq245288">
+            <p>③ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
               <div className="textCenter">5</div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">9</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">10</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">8</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">10</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">10</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">④</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">4</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter asdfawe">★</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">11</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">24</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">12</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">48</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">48</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">⑤</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">1</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">12</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter asdfawe">★</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">15</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">60</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">28</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">60</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">⑥</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter asdfawe">★</div>
-
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">9</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">5</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">6</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">16</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">18</div>
-            </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">18</div>
-            </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">⑦</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
               <div className="textCenter">3</div>
               <div className="divlineCSS7"></div>
               <div className="textCenter">10</div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
               <div className="textCenter">3</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter asdfawe">★</div>
             </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">20</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow justifyCenter">
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">15</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">20</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
             </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
-          </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="asfw flexRow fontSize20 wef213">
-          <p className="nuarfwa533">⑧</p>
-          <div className="flexRow noWrap1">
-            <div>(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter">5</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">8</div>
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp marginwerq245288">
+            <p>④ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">4</div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter asdfawe">★</div>
-              <div className="divlineCSS7"></div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">12</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">7</div>
+              <div className="divlineCSS1"></div>
               <div className="textCenter">9</div>
             </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <img
-              className="allowRight"
-              src={`${process.env.PUBLIC_URL}/fifthImage/화살표.png`}
-              alt=""
-            />
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;(</div>
-            <div className="fontSize20 marginLeft10px">
-              <div className="textCenter awrfaw">♥</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">72</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow justifyCenter">
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
             </div>
-            <div className="commaHeight">,</div>
-            <div className="fontSize20 marginRighttic">
-              <div className="textCenter">64</div>
-              <div className="divlineCSS7"></div>
-              <div className="textCenter">72</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
             </div>
-            <div>)&nbsp;&nbsp;&nbsp;&nbsp;</div>
           </div>
-          <div className="fontSize25 flexRow afwe">
-            <p className="asdfawe">★</p> =
-            <input type="text" className="averageInput" />
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp marginwerq245288">
+            <p>⑤ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">7</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">8</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">14</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">4</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow justifyCenter">
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
           </div>
-          <div className="fontSize25 flexRow ">
-            <p className="awrfaw">♥</p> =
-            <input type="text" className="averageInput" />
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp marginwerq245288">
+            <p>⑥ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">26</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">15</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">13</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow justifyCenter">
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
           </div>
-        </div>
+        </div>{' '}
       </div>
     </Styled.OneToNine>
   );

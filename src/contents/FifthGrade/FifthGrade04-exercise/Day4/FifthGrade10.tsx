@@ -4,280 +4,327 @@ import Styled from '../../style';
 const FifthGrade10: React.FC = () => {
   return (
     <Styled.OneToNine className="sectionSize">
-      <div className="quizCard11 fontSize25 flexCol gagprajgw">
-        <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">4</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter heiwerlin">8</div>
-            </div>
-          </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
-              <div className="textCenter">1</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter">2</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">8</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">16</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">16</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">40</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">30</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">80</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">60</div>
-              <div className="divlineCSS6"></div>
-              <div className="textCenter">120</div>
-            </div>
-          </div>
-          <div>
-            <input type="text" className="averageInput" />
-          </div>
+      <div className="exampleBox312">
+        <div className="fontSize17">
+          세 분수의 곱셈은 여러 번 약분을 할 수 있는 경우가 있습니다.
+        </div>
+        <div className="quiz121Ex justifyCenter">
+          <img
+            className="imgSize3111"
+            src={`${process.env.PUBLIC_URL}/fifthImage/4-4-1.png`}
+            alt=""
+          />
         </div>
         <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">15</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter heiwerlin">18</div>
-            </div>
+          <div className="">
+            <div className="textCenter">12</div>
+            <div className="divlineCSS1"></div>
+            <div className="textCenter">25</div>
           </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
-              <div className="textCenter">2</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter">3</div>
-            </div>
-            <div className="yosomargin">
+          <div className="flexRow">
+            의 분자 12는 16과 4로 약분하고, 9와 3으로 한 번 더 약분해서 1이
+            되었습니다.
+          </div>
+        </div>
+        <div>
+          분자와 분모를 약분하는 순서는 여러 가지가 있지만 계산 결과는 같습니다.{' '}
+        </div>
+      </div>
+      <div className="quiz fontSize25">
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp">
+            <p>① &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
               <div className="textCenter">5</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter">6</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">30</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">48</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">45</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">54</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">50</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">72</div>
-            </div>
-          </div>
-          <div>
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">20</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter heiwerlin">24</div>
-            </div>
-          </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
-              <div className="textCenter">5</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter">6</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">6</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">10</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">10</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">12</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">65</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">75</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">100</div>
-              <div className="divlineCSS6"></div>
-              <div className="textCenter">120</div>
-            </div>
-          </div>
-          <div>
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">10</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter heiwerlin">15</div>
-            </div>
-          </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
-              <div className="textCenter">1</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter">2</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">2</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">3</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">20</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">30</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">60</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">90</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">120</div>
-              <div className="divlineCSS6"></div>
-              <div className="textCenter">150</div>
-            </div>
-          </div>
-          <div>
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">5</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter heiwerlin">35</div>
-            </div>
-          </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
-              <div className="textCenter">1</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter">5</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">1</div>
               <div className="divlineCSS1"></div>
               <div className="textCenter">7</div>
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">12</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">70</div>
-            </div>
-            <div className="yosomargin">
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">28</div>
+              <div className="divlineCSS7"></div>
               <div className="textCenter">15</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">100</div>
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">20</div>
-              <div className="divlineCSS6"></div>
-              <div className="textCenter">140</div>
-            </div>
-          </div>
-          <div>
-            <input type="text" className="averageInput" />
-          </div>
-        </div>
-        <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">24</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter heiwerlin">80</div>
-            </div>
-          </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
               <div className="textCenter">3</div>
-              <div className="divlineCSS1"></div>
+              <div className="divlineCSS7"></div>
               <div className="textCenter">10</div>
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">12</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">30</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>{' '}
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">12</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">40</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">46</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">160</div>
-            </div>
-            <div className="yosomargin">
-              <div className="textCenter">124</div>
-              <div className="divlineCSS6"></div>
-              <div className="textCenter">180</div>
-            </div>
-          </div>
-          <div>
-            <input type="text" className="averageInput" />
           </div>
         </div>
-        <div className="flexRow">
-          <div className="add2131 sqerqrmairign cororo">
-            <div className="posiAbAb">
-              <div className="textCenter heieeiei341">25</div>
-              <div className="divlineCSS1"></div>
-              <div className="textCenter heiwerlin">60</div>
-            </div>
-          </div>
-          <div className="quxeesw341 flexRow">
-            <div className="yosomargin">
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp">
+            <p>② &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
               <div className="textCenter">3</div>
               <div className="divlineCSS1"></div>
               <div className="textCenter">4</div>
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">16</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">30</div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">6</div>
             </div>
-            <div className="yosomargin">
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">4</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">7</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>{' '}
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp">
+            <p>③ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">9</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">8</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">4</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">7</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
               <div className="textCenter">5</div>
-              <div className="divlineCSS"></div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">6</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>{' '}
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp">
+            <p>④ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">9</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">16</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">2</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
               <div className="textCenter">12</div>
+              <div className="divlineCSS7"></div>
+              <div className="textCenter">13</div>
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">100</div>
-              <div className="divlineCSS"></div>
-              <div className="textCenter">180</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>{' '}
             </div>
-            <div className="yosomargin">
-              <div className="textCenter">60</div>
-              <div className="divlineCSS6"></div>
-              <div className="textCenter">120</div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
             </div>
           </div>
-          <div>
-            <input type="text" className="averageInput" />
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp">
+            <p>⑤ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">2</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">7</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">5</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">6</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">5</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>{' '}
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
           </div>
-        </div>
+        </div>{' '}
+        <div>
+          {' '}
+          <div className="flexRow awefaweTOp">
+            <p>⑥ &nbsp;&nbsp;</p>
+            <div className="quiz121Ex">
+              <div className="textCenter">6</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">7</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">3</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">4</div>
+            </div>
+            <div className="marginlR10px">×</div>
+            <div className="quiz121Ex">
+              <div className="textCenter">1</div>
+              <div className="divlineCSS1"></div>
+              <div className="textCenter">3</div>
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>
+              <div className="divlineCSS16"></div>
+              <div className="flexRow">
+                {' '}
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+                <div className="awkfaui">×</div>
+                <input type="text" className="averageInput" />
+              </div>{' '}
+            </div>
+            <div className="marginlR10px">=</div>
+            <div>
+              <input type="text" className="averageInput" />
+              <div className="divlineCSS15"></div>
+              <input type="text" className="averageInput" />
+            </div>
+          </div>
+        </div>{' '}
       </div>
     </Styled.OneToNine>
   );
